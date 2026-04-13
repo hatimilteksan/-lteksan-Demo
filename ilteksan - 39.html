@@ -1,0 +1,2528 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<link rel="icon" type="image/png" href="https://a.top4top.io/p_3744jyjx71.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>İlteksan Mühendislik San. ve Tic. Ltd. Sti.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700;900&family=Barlow+Condensed:wght@300;400;600;700;900&family=Noto+Sans+Arabic:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: transparent; 
+}
+
+
+.video-overlay:active {
+    pointer-events: none; 
+}
+video {
+    pointer-events: auto; 
+}
+
+html[lang="ru"] .nav-center a { font-size: clamp(9px, 0.8vw, 12px) !important; }
+html[lang="tr"] .nav-center a { font-size: clamp(10px, 0.85vw, 13px) !important; }
+  body {
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -ms-user-select: none;     
+    user-select: none;         
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#1B2A4A;--navy2:#243558;--navy3:#0F1E36;--navy4:#0A1628;
+  --blue:#2E5FA3;--blue2:#3A78CC;--blue-light:#5B9BD5;--blue-pale:#A8C8E8;
+  --white:#FFFFFF;--off-white:#EEF3FA;--silver:#B8C8DC;--silver2:#7A90A8;
+  --dim:#4A5F7A;--accent:#4A9FD4;--accent2:#6BBCE0;
+  --text-on-dark:#E8F0F8;--glass:rgba(255,255,255,0.06);--glass-border:rgba(74,159,212,0.2);
+}
+html{scroll-behavior:smooth}
+body{font-family:'Barlow',sans-serif;background:var(--navy4);color:var(--text-on-dark);overflow-x:hidden}
+[dir="rtl"]{font-family:'Noto Sans Arabic',sans-serif}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--navy4)}
+::-webkit-scrollbar-thumb{background:var(--blue);border-radius:3px}
+#video-intro{
+  position:relative;
+  width:100%;height:100vh;min-height:600px;
+  overflow:hidden;background:#000;
+}
+.yt-wrap{
+  position:absolute;
+  top:50%;left:50%;
+  transform:translate(-50%,-50%);
+  width:100vw;height:56.25vw; 
+  min-height:100vh;
+  min-width:177.78vh; 
+}
+.yt-wrap iframe{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  border:none;pointer-events:none;
+}
+.vid-top{
+  position:absolute;top:0;left:0;right:0;
+  height:110px;z-index:10;
+  background:linear-gradient(to bottom,rgba(8,18,36,.9) 0%,transparent 100%);
+  display:flex;align-items:center;padding:0 56px;gap:16px;
+}
+.vid-logo-link{display:flex;align-items:center;gap:14px;text-decoration:none}
+.vid-logo-circle{
+  width:52px;height:52px;border-radius:50%;
+  background:transparent;border:none;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.vid-logo-name{font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:700;letter-spacing:3px;color:#fff;text-transform:lowercase;line-height:1}
+.vid-logo-sub{font-size:9px;font-weight:300;color:#B8C8DC;letter-spacing:1.5px;text-transform:uppercase;line-height:1;margin-top:2px}
+.vid-bottom{
+  position:absolute;bottom:0;left:0;right:0;
+  height:220px;z-index:10;
+  background:linear-gradient(to top,
+    rgba(8,18,36,1) 0%,
+    rgba(8,18,36,0.97) 15%,
+    rgba(8,18,36,0.7) 45%,
+    transparent 100%);
+  display:flex;flex-direction:column;align-items:center;
+  justify-content:flex-end;padding-bottom:36px;gap:10px;
+}
+.vid-scroll-text{
+  font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:600;
+  letter-spacing:3px;color:rgba(184,200,220,.65);text-transform:uppercase;
+}
+.vid-arrow{
+  display:flex;flex-direction:column;align-items:center;gap:0;
+  text-decoration:none;animation:bounce 2.2s ease infinite;
+}
+@keyframes bounce{0%,100%{transform:translateY(0);opacity:.65}50%{transform:translateY(9px);opacity:1}}
+.vid-arrow-line{width:1px;height:38px;background:linear-gradient(to bottom,transparent,var(--accent))}
+.vid-arrow-head{width:9px;height:9px;border-right:1.5px solid var(--accent);border-bottom:1.5px solid var(--accent);transform:rotate(45deg);margin-top:-5px}
+.vid-side{
+  position:absolute;left:32px;top:50%;transform:translateY(-50%);
+  z-index:10;
+}
+.vid-side span{
+  writing-mode:vertical-rl;text-orientation:mixed;
+  font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;
+  letter-spacing:3px;color:rgba(74,159,212,.55);text-transform:uppercase;
+}
+.vid-mute-btn{
+  position:absolute;bottom:36px;right:40px;z-index:20;
+  width:40px;height:40px;border-radius:50%;
+  background:rgba(10,22,40,.7);border:1px solid rgba(74,159,212,.3);
+  backdrop-filter:blur(8px);cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:all .25s;
+}
+.vid-mute-btn:hover{border-color:var(--accent);background:rgba(74,159,212,.15)}
+.vid-mute-btn svg{width:18px;height:18px;stroke:#B8C8DC;fill:none;stroke-width:1.5}
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:200;height:76px;
+  display:flex;align-items:center;justify-content:space-between;padding:0 56px;
+  background:rgba(10,22,40,0.95);backdrop-filter:blur(24px);
+  border-bottom:1px solid rgba(74,159,212,0.12);transition:all .3s;
+  transform:translateY(-100%);
+}
+nav.visible{transform:translateY(0)}
+nav.scrolled{height:64px;background:rgba(10,22,40,0.99);border-bottom-color:rgba(74,159,212,0.22)}
+.nav-logo{display:flex;align-items:center;gap:14px;text-decoration:none;flex-shrink:0;}
+.logo-circle{
+  width:54px;height:54px;border-radius:50%;
+  background:transparent;border:none;
+  display:flex;align-items:center;justify-content:center;overflow:hidden;flex-shrink:0;
+}
+.logo-text-wrap{display:flex;flex-direction:column;gap: 2px;
+    flex-shrink: 0;
+    min-width: max-content;
+}
+.logo-name{font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:700;letter-spacing:3px;color:var(--white);text-transform:lowercase;line-height:1}
+.logo-sub{font-size:9px;font-weight:300;color:var(--silver);letter-spacing:1.5px;text-transform:uppercase;line-height:1;white-space: nowrap;}
+.nav-center{display:flex;gap:0;list-style:none}
+.nav-center a{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px; 
+    color: var(--silver);
+    text-decoration: none;
+    padding: 8px 15px; 
+    text-transform: uppercase;
+    transition: color .2s;
+    position: relative;
+    white-space: nowrap; 
+}
+.nav-center a::after{content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 10px;
+    right: 10px;
+    height: 1px;
+    background: var(--accent);
+    transform: scaleX(0);
+    transition: transform .25s;}
+.nav-center a:hover{color:var(--white)}
+.nav-center a:hover::after{transform:scaleX(1)}
+.nav-right{display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    flex-shrink: 0;} 
+.lang-btn{position:relative}
+.lang-trigger{display:flex;align-items:center;gap:6px;background:var(--glass);border:1px solid var(--glass-border);border-radius:6px;padding:7px 12px;color:var(--silver);font-size:12px;font-weight:600;letter-spacing:1px;cursor:pointer;transition:all .2s;font-family:'Barlow',sans-serif;text-transform:uppercase}
+.lang-trigger:hover{border-color:var(--accent);color:var(--white)}
+.lang-dropdown{position:absolute;top:calc(100% + 8px);right:0;background:rgba(12,24,44,0.98);border:1px solid var(--glass-border);border-radius:8px;min-width:180px;overflow:hidden;opacity:0;pointer-events:none;transform:translateY(-8px);transition:all .2s;backdrop-filter:blur(20px);z-index:300}
+.lang-btn:hover .lang-dropdown{opacity:1;pointer-events:all;transform:translateY(0)}
+.lang-option{display:flex;align-items:center;gap:10px;padding:10px 16px;font-size:13px;color:var(--silver);cursor:pointer;transition:all .15s;border:none;background:none;width:100%;text-align:left;font-family:'Barlow',sans-serif}
+.lang-option:hover{background:rgba(74,159,212,0.1);color:var(--white)}
+.lang-option.active{color:var(--accent)}
+.nav-cta{background: var(--blue);
+  color: var(--white);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .25s;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;}
+.nav-cta:hover {
+  background: var(--blue2);
+  transform: translateY(-1px);
+}
+.nav-cta.catalog-btn {
+  background: var(--accent);
+  color: var(--navy4);
+}
+
+.nav-cta.catalog-btn:hover {
+  background: var(--accent2);
+}
+.nav-cta.career-btn {
+  background: transparent;
+  border: 1px solid var(--blue); 
+  color: var(--blue); 
+}
+.nav-cta.career-btn:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+.hero{position:relative;height:100vh;min-height:680px;overflow:hidden}
+.hero::before{
+  content:'';
+  position:absolute;top:0;left:0;right:0;
+  height:120px;
+  background:linear-gradient(to bottom,rgba(8,18,36,1) 0%,transparent 100%);
+  z-index:5;pointer-events:none;
+}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity 1.1s ease}
+.slide.active{opacity:1}
+.slide-canvas{position:absolute;inset:0;width:100%;height:100%;}
+.slide-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(108deg,rgba(8,18,36,0.96) 0%,rgba(12,26,50,0.78) 38%,rgba(12,26,50,0.28) 68%,rgba(8,18,36,0.08) 100%);
+}
+.slide-content{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:0 82px;padding-top:76px;max-width:660px;margin-right:100px}
+.slide-eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:18px;opacity:0;transform:translateX(-20px);transition:all .7s .15s}
+.slide.active .slide-eyebrow{opacity:1;transform:translateX(0)}
+.eyebrow-line{width:32px;height:1px;background:var(--accent)}
+.eyebrow-text{font-size:11px;font-weight:600;letter-spacing:3px;color:var(--accent);text-transform:uppercase}
+.slide-company{font-family:'Barlow Condensed',sans-serif;font-size:40px;font-weight:800;letter-spacing:4px;color:var(--accent);text-transform:uppercase;margin-bottom:14px;margin-left:80px;opacity:0;transform:translateX(-24px);transition:all .7s .3s}
+.slide.active .slide-company{opacity:1;transform:translateX(0)}
+.slide-title{font-family:'Barlow Condensed',sans-serif;font-size:70px;font-weight:900;line-height:.95;color:var(--white);letter-spacing:-1px;margin-bottom:22px;opacity:0;transform:translateY(28px);transition:all .7s .45s;text-transform:uppercase}
+.slide.active .slide-title{opacity:1;transform:translateY(0)}
+.slide-title em{color:var(--accent);font-style:normal}
+.slide-desc{font-size:16px;font-weight:300;line-height:1.8;color:var(--silver);max-width:490px;margin-bottom:38px;opacity:0;transform:translateY(20px);transition:all .7s .6s}
+.slide.active .slide-desc{opacity:1;transform:translateY(0)}
+.slide-actions{display:flex;gap:14px;align-items:center;opacity:0;transform:translateY(16px);transition:all .7s .75s}
+.slide.active .slide-actions{opacity:1;transform:translateY(0)}
+.btn-slide-primary{background:var(--blue);color:var(--white);border:none;padding:14px 32px;border-radius:4px;font-family:'Barlow',sans-serif;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:all .25s;clip-path:polygon(0 0,calc(100% - 10px) 0,100% 100%,0 100%)}
+.btn-slide-primary:hover{background:var(--blue2);transform:translateY(-2px)}
+.btn-slide-secondary{background:transparent;color:var(--silver);border:1px solid rgba(74,159,212,0.3);padding:13px 26px;border-radius:4px;font-family:'Barlow',sans-serif;font-size:13px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:all .25s;display:flex;align-items:center;gap:8px}
+.btn-slide-secondary:hover{border-color:var(--accent);color:var(--white)}
+.play-icon{width:18px;height:18px;border:1.5px solid currentColor;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.play-icon::after{content:'';width:0;height:0;border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:7px solid currentColor;margin-left:2px}
+.thumb-rail{position:absolute;right:48px;top:50%;transform:translateY(-50%);margin-top:38px;display:flex;flex-direction:column;gap:10px;z-index:10}
+.thumb{width:86px;height:58px;border-radius:5px;overflow:hidden;cursor:pointer;border:2px solid transparent;opacity:.4;transition:all .3s;position:relative;flex-shrink:0}
+.thumb.active{border-color:var(--accent);opacity:1}
+.thumb:hover{opacity:.78}
+.thumb canvas{width:100%;height:100%;display:block}
+.thumb-lbl{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(8,18,36,.88));padding:4px 5px 4px;font-size:8px;color:var(--silver);letter-spacing:.3px;font-weight:600;text-transform:uppercase}
+.slide-controls{position:absolute;bottom:48px;left:82px;display:flex;align-items:center;gap:20px;z-index:10}
+.ctrl-btn{width:46px;height:46px;border-radius:50%;border:1px solid rgba(74,159,212,.25);background:rgba(8,18,36,.5);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .25s;color:var(--silver);font-size:16px}
+.ctrl-btn:hover{border-color:var(--accent);color:var(--accent);background:rgba(74,159,212,.1)}
+.slide-progress{display:flex;gap:6px;align-items:center}
+.prog-dot{height:3px;background:rgba(74,159,212,.28);border-radius:2px;cursor:pointer;transition:all .35s;width:28px}
+.prog-dot.active{background:var(--accent);width:54px}
+.slide-counter{position:absolute;bottom:56px;right:180px;font-family:'Barlow Condensed',sans-serif;font-size:14px;letter-spacing:2px;color:var(--dim);z-index:10}
+.slide-counter span{color:var(--silver)}
+.progress-line{position:absolute;bottom:0;left:0;height:3px;background:linear-gradient(90deg,var(--blue),var(--accent));z-index:20;transition:none}
+
+.partners-bar{background:var(--navy3);border-top:1px solid rgba(74,159,212,.1);border-bottom:1px solid rgba(74,159,212,.1);padding:18px 0;overflow:hidden;position:relative}
+.partners-bar::before,.partners-bar::after{content:'';position:absolute;top:0;bottom:0;width:100px;z-index:2;pointer-events:none}
+.partners-bar::before{left:0;background:linear-gradient(90deg,var(--navy3),transparent)}
+.partners-bar::after{right:0;background:linear-gradient(-90deg,var(--navy3),transparent)}
+.ticker-track{display:flex;animation:ticker 28s linear infinite;width:max-content}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.partner-chip{display:flex;align-items:center;gap:10px;padding:0 38px;border-right:1px solid rgba(74,159,212,.1);white-space:nowrap}
+.partner-dot{width:6px;height:6px;border-radius:50%;background:var(--blue)}
+.partner-name{font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:700;letter-spacing:2px;color:var(--silver2);text-transform:uppercase}
+
+.section{padding:96px 80px}
+.bg-alt{background:var(--navy3)}
+.bg-dark{background:var(--navy4)}
+.section-tag{display:inline-flex;align-items:center;gap:10px;margin-bottom:18px}
+.tag-line{width:24px;height:1px;background:var(--accent)}
+.tag-text{font-size:11px;font-weight:700;letter-spacing:3px;color:var(--accent);text-transform:uppercase}
+.section-title{font-family:'Barlow Condensed',sans-serif;font-size:50px;font-weight:800;line-height:1.06;color:var(--white);letter-spacing:-.5px;text-transform:uppercase;margin-bottom:22px}
+.section-title em{-webkit-text-stroke:1px var(--accent);color:transparent;font-style:normal}
+
+.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center;margin-top:8px}
+.intro-text p{font-size:16px;line-height:1.85;color:var(--silver);margin-bottom:18px}
+.intro-text p:first-child{font-size:20px;line-height:1.7;color:var(--text-on-dark);font-weight:300}
+.intro-stats{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:rgba(74,159,212,.08);border:1px solid var(--glass-border);border-radius:10px;overflow:hidden}
+.i-stat{padding:30px 26px;background:var(--navy3);transition:background .2s}
+.i-stat:hover{background:var(--navy2)}
+.i-num{font-family:'Barlow Condensed',sans-serif;font-size:50px;font-weight:900;color:var(--accent);line-height:1;margin-bottom:6px}
+.i-label{font-size:11px;font-weight:600;letter-spacing:2px;color:var(--silver2);text-transform:uppercase}
+
+.companies-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:52px;background:rgba(74,159,212,.06);border:1px solid rgba(74,159,212,.1);border-radius:12px;overflow:hidden}
+.company-card{background:var(--navy3);padding:24px 20px;cursor:pointer;transition:all .3s;border:1px solid transparent;position:relative;overflow:hidden}
+.company-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--blue),transparent);transform:scaleX(0);transition:transform .4s}
+.company-card:hover::before{transform:scaleX(1)}
+.company-card:hover{background:var(--navy2)}
+.company-canvas{width:100%;height:88px;border-radius:6px;margin-bottom:18px;display:block;border:1px solid rgba(74,159,212,.08)}
+.company-name{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:800;letter-spacing:1px;color:var(--white);text-transform:uppercase;margin-bottom:6px}
+.company-sector{font-size:11px;font-weight:700;letter-spacing:2px;color:var(--accent);text-transform:uppercase;margin-bottom:12px}
+.company-products{list-style:none;display:flex;flex-direction:column;gap:5px}
+.company-products li{font-size:12px;color:var(--silver2);display:flex;align-items:flex-start;gap:8px;line-height:1.5}
+.company-products li::before{content:'';width:4px;height:4px;border-radius:50%;background:var(--blue-light);margin-top:6px;flex-shrink:0}
+
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:52px}
+.service-card{background:var(--navy2);border:1px solid rgba(74,159,212,.1);border-radius:8px;padding:34px 26px;transition:all .3s;position:relative;overflow:hidden}
+.service-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--blue),var(--accent));transform:scaleX(0);transform-origin:left;transition:transform .4s}
+.service-card:hover::after{transform:scaleX(1)}
+.service-card:hover{border-color:rgba(74,159,212,.22);transform:translateY(-4px)}
+.service-icon{width:50px;height:50px;background:rgba(46,95,163,.2);border:1px solid rgba(74,159,212,.2);border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:20px}
+.service-icon svg{width:22px;height:22px;stroke:var(--accent);fill:none;stroke-width:1.5}
+.service-title{font-family:'Barlow Condensed',sans-serif;font-size:21px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--white);margin-bottom:10px}
+.service-desc{font-size:14px;color:var(--silver2);line-height:1.7}
+
+.testimonials-wrapper{
+  position:relative;
+  margin-top:52px;
+  width:100%;
+}
+.testimonials-scroll-container{
+  position:relative;
+  overflow:hidden;
+  background:rgba(10,22,40,.3);
+  border-radius:10px;
+  padding:0;
+  height:fit-content;
+}
+.testimonials-grid{
+  display:grid;
+  grid-template-columns:repeat(3, minmax(0, 1fr));
+  grid-template-rows:repeat(3, auto);
+  gap:18px;
+  width:100%;
+  padding:18px;
+  box-sizing:border-box;
+  background:transparent;
+  overflow:visible;
+}
+.testimonials-scroll-container{position:relative;overflow:hidden;border-radius:10px;background:rgba(10,22,40,.15);}
+.testimonials-grid::-webkit-scrollbar{display:none}
+.testimonial-card{
+  background:var(--navy2);
+  border:1px solid rgba(74,159,212,.1);
+  border-radius:10px;
+  padding:10px 8px;
+  transition:all .3s;
+  position:relative;
+  min-width:300px;
+  height:160px;
+  flex-shrink:0;
+}
+.testimonial-card:hover{
+  border-color:rgba(74,159,212,.22);
+  transform:translateY(-3px);
+}
+.testimonials-scroll-left{left:12px}
+.testimonials-scroll-right{right:12px}
+.t-stars{display:flex;gap:4px;margin-bottom:16px}
+.t-star{color:#F4C84A;font-size:16px}
+.t-quote{font-size:15px;color:var(--text-on-dark);line-height:1.75;margin-bottom:22px;font-style:italic;font-weight:300}
+.t-quote::before{content:'\201C';font-size:40px;color:var(--accent);opacity:.4;line-height:0;vertical-align:-.5rem;margin-right:4px}
+.t-divider{height:1px;background:rgba(74,159,212,.1);margin-bottom:20px}
+.t-person{display:flex;align-items:center;gap:14px}
+.t-avatar{width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--navy));border:2px solid rgba(74,159,212,.25);display:flex;align-items:center;justify-content:center;font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;color:var(--accent);flex-shrink:0}
+.t-name{font-size:14px;font-weight:600;color:var(--white);margin-bottom:3px}
+.t-company{font-size:12px;color:var(--silver2);letter-spacing:.5px}
+.t-flag{font-size:14px;margin-left:auto}
+
+.testimonials-scroll-btn{
+  position:absolute;top:50%;transform:translateY(-50%);
+  width:44px;height:44px;
+  border-radius:50%;
+  border:1px solid rgba(74,159,212,.3);
+  background:rgba(10,22,40,.7);
+  color:var(--silver);
+  cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:all .25s;
+  z-index:10;
+  backdrop-filter:blur(10px);
+}
+.testimonials-scroll-btn:hover{
+  border-color:var(--accent);
+  color:var(--accent);
+  background:rgba(74,159,212,.15);
+}
+.testimonials-scroll-left{left:8px}
+.testimonials-scroll-right{right:8px}
+
+.team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:52px}
+.team-card{background:var(--navy2);border:1px solid rgba(74,159,212,.1);border-radius:50px;padding: 4px 2px;text-align:center;transition:all .3s;cursor:pointer}
+.team-card:hover{border-color:rgba(74,159,212,.3);transform:translateY(-4px)}
+.team-avatar{width:150px;height:150px;border-radius:50%;margin:0 auto 16px;border:2px solid rgba(74,159,212,.3);overflow:hidden;background:var(--navy3);display:flex;align-items:center;justify-content:center;position:relative}
+.team-avatar-canvas{width:100%;height:100%;display:block}
+.team-name{font-family:'Barlow Condensed',sans-serif;font-size:19px;font-weight:700;color:var(--white);margin-bottom:5px;letter-spacing:.5px}
+.team-role{font-size:15px;font-weight:600;letter-spacing:1px;color:var(--accent);text-transform:none;margin-bottom:10px}
+.team-desc{font-size:13px;color:var(--silver2);line-height:1.6}
+.team-social{display:flex;justify-content:center;gap:8px;margin-top:14px}
+.team-social a{width:30px;height:30px;border-radius:50%;border:1px solid rgba(74,159,212,.2);display:flex;align-items:center;justify-content:center;transition:all .2s;text-decoration:none}
+.team-social a:hover{border-color:var(--accent);background:rgba(74,159,212,.1)}
+.team-social svg{width:14px;height:14px;stroke:var(--silver2);fill:none;stroke-width:1.5}
+.team-social a:hover svg{stroke:var(--accent)}
+
+.contact-wrap{display:grid;grid-template-columns:1fr 1.4fr;gap:56px;margin-top:52px;align-items:start}
+.contact-info{display:flex;flex-direction:column;gap:24px}
+.c-info-item{display:flex;gap:14px;align-items:flex-start;padding:22px;background:var(--navy2);border:1px solid rgba(74,159,212,.1);border-radius:8px}
+.c-info-icon{width:38px;height:38px;background:rgba(46,95,163,.2);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.c-info-icon svg{width:17px;height:17px;stroke:var(--accent);fill:none;stroke-width:1.5}
+.c-info-label{font-size:10px;font-weight:700;letter-spacing:2px;color:var(--accent);text-transform:uppercase;margin-bottom:4px}
+.c-info-value{font-size:14px;color:var(--text-on-dark);line-height:1.6}
+.social-row{display:flex;gap:10px;margin-top:4px}
+.soc-btn{width:38px;height:38px;border-radius:8px;border:1px solid rgba(74,159,212,.2);background:rgba(74,159,212,.05);display:flex;align-items:center;justify-content:center;text-decoration:none;transition:all .25s;cursor:pointer}
+.soc-btn:hover{border-color:var(--accent);background:rgba(74,159,212,.15)}
+.soc-btn svg{width:18px;height:18px;fill:var(--silver2);transition:fill .2s}
+.soc-btn:hover svg{fill:var(--accent)}
+.contact-form{background:var(--navy2);border:1px solid rgba(74,159,212,.1);border-radius:10px;padding:38px}
+.form-title{font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:700;text-transform:uppercase;color:var(--white);margin-bottom:26px;letter-spacing:.5px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-bottom:13px}
+.form-group{display:flex;flex-direction:column;gap:5px}
+.form-group.full{grid-column:1/-1}
+.form-label{font-size:10px;font-weight:700;letter-spacing:1.5px;color:var(--silver2);text-transform:uppercase}
+.form-input,.form-select,.form-textarea{background:rgba(255,255,255,.04);border:1px solid rgba(74,159,212,.15);border-radius:6px;padding:11px 14px;color:var(--text-on-dark);font-family:'Barlow',sans-serif;font-size:14px;transition:all .2s;outline:none}
+.form-input:focus,.form-select:focus,.form-textarea:focus{border-color:var(--accent);background:rgba(74,159,212,.06)}
+.form-select option{background:var(--navy3)}
+.form-textarea{min-height:105px;resize:vertical}
+.form-submit{width:100%;background:linear-gradient(90deg,var(--blue),var(--blue2));color:var(--white);border:none;padding:14px;border-radius:6px;font-family:'Barlow',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .25s;margin-top:8px}
+.form-submit:hover{background:linear-gradient(90deg,var(--blue2),var(--accent));transform:translateY(-1px)}
+
+footer{background:var(--navy4);border-top:1px solid rgba(74,159,212,.12);padding:56px 80px 30px}
+.footer-grid{display:grid;grid-template-columns:1.8fr 1fr 1fr 1fr;gap:44px;margin-bottom:44px;padding-bottom:44px;border-bottom:1px solid rgba(74,159,212,.08)}
+.footer-brand{display:flex;flex-direction:column;gap:14px}
+.footer-desc{font-size:13px;color:var(--dim);line-height:1.8;max-width:270px}
+.footer-col h4{font-size:10px;font-weight:700;letter-spacing:2.5px;color:var(--silver);text-transform:uppercase;margin-bottom:16px}
+.footer-links{list-style:none;display:flex;flex-direction:column;gap:9px}
+.footer-links a{font-size:13px;color:var(--dim);text-decoration:none;transition:color .2s}
+.footer-links a:hover{color:var(--accent)}
+.footer-bottom{display:flex;align-items:center;justify-content:space-between}
+.footer-copy{font-size:12px;color:var(--dim)}
+.footer-legal{display:flex;gap:22px}
+.footer-legal a{font-size:12px;color:var(--dim);text-decoration:none;transition:color .2s}
+.footer-legal a:hover{color:var(--accent)}
+
+.float-container{position:fixed;right:22px;bottom:28px;display:flex;flex-direction:column;gap:10px;z-index:1000;align-items:flex-end}
+.float-btn{display:flex;align-items:center;gap:10px;border-radius:28px;border:none;cursor:pointer;transition:all .3s;text-decoration:none;padding:10px 16px 10px 10px;box-shadow:0 4px 18px rgba(0,0,0,.4);overflow:hidden;max-width:48px}
+.float-btn:hover{max-width:200px}
+.float-icon{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.float-label{font-size:13px;font-weight:600;white-space:nowrap;opacity:0;transition:opacity .2s .1s;letter-spacing:.3px}
+.float-btn:hover .float-label{opacity:1}
+.float-wa{background:#25D366;color:#fff}
+.float-wa .float-icon{background:rgba(255,255,255,.2)}
+.float-email{background:#2E5FA3;color:#fff}
+.float-email .float-icon{background:rgba(255,255,255,.15)}
+
+@media(max-width:1100px){
+  .companies-grid{grid-template-columns:repeat(2,1fr)}
+  .team-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:768px){
+  nav{padding:0 22px}
+  .nav-center{display:none}
+  .slide-content{padding:0 28px;padding-top:76px}
+  .slide-title{font-size:38px}
+  .thumb-rail{display:none}
+  .section{padding:60px 28px}
+  .intro-grid{grid-template-columns:1fr}
+  .companies-grid,.testimonials-grid,.team-grid{grid-template-columns:1fr}
+  .services-grid{grid-template-columns:1fr}
+  .contact-wrap{grid-template-columns:1fr}
+  footer{padding:44px 28px 24px}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .vid-top{padding:0 24px}
+}
+</style>
+</head>
+<body>
+<section id="video-intro">
+  <div class="yt-wrap">
+    <iframe
+      id="vimeoPlayer"
+      src="https://player.vimeo.com/video/1182558483?autoplay=1&muted=1&loop=1&background=1&quality=auto"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="vid-top">
+    <a href="#home" class="vid-logo-link">
+      <div class="vid-logo-circle" style="background:transparent;border:none;padding:0;overflow:visible">
+        <img src="https://up6.cc/2026/04/177555253479071.png" alt="İlteksan Logo" style="width:52px;height:52px;border-radius:50%;object-fit:cover;display:block;"/>
+      </div>
+      <div>
+        <div class="vid-logo-name">ilteksan</div>
+        <div class="vid-logo-sub">Mühendislik San. ve Tic. Ltd. Sti.</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="vid-side">
+    <span>Shaping the Future of Advanced Industry</span>
+  </div>
+ 
+  <div class="vid-bottom">
+    <span class="vid-scroll-text">Discover More</span>
+    <a href="#home" class="vid-arrow">
+      <div class="vid-arrow-line"></div>
+      <div class="vid-arrow-head"></div>
+    </a>
+  </div>
+</section>
+
+<nav id="navbar">
+  <a href="#home" class="nav-logo">
+    <div class="logo-circle">
+      <img src="https://up6.cc/2026/04/177555253479071.png" alt="İlteksan Logo" style="width:54px;height:54px;border-radius:50%;object-fit:cover;display:block;"/>
+        <circle cx="30" cy="30" r="27" stroke="#5B9BD5" stroke-width="1.5" fill="none"/>
+        <ellipse cx="30" cy="31" rx="13" ry="14" fill="none" stroke="#5B9BD5" stroke-width="1.2"/>
+        <path d="M19 21 L16 13 L23 18 Z" stroke="#5B9BD5" stroke-width="1" fill="none" stroke-linejoin="round"/>
+        <path d="M41 21 L44 13 L37 18 Z" stroke="#5B9BD5" stroke-width="1" fill="none" stroke-linejoin="round"/>
+        <path d="M20 20 L18 15 L22 18 Z" fill="#5B9BD5" opacity="0.4"/>
+        <path d="M40 20 L42 15 L38 18 Z" fill="#5B9BD5" opacity="0.4"/>
+        <ellipse cx="26" cy="27" rx="3" ry="3" fill="#5B9BD5" opacity="0.6"/>
+        <ellipse cx="34" cy="27" rx="3" ry="3" fill="#5B9BD5" opacity="0.6"/>
+        <ellipse cx="26" cy="27" rx="1.4" ry="1.8" fill="#0A1628"/>
+        <ellipse cx="34" cy="27" rx="1.4" ry="1.8" fill="#0A1628"/>
+        <path d="M28 32 L30 30 L32 32 L30 33 Z" fill="#5B9BD5" opacity="0.8"/>
+        <path d="M30 33 L28 36" stroke="#5B9BD5" stroke-width="1" fill="none" stroke-linecap="round"/>
+        <path d="M30 33 L32 36" stroke="#5B9BD5" stroke-width="1" fill="none" stroke-linecap="round"/>
+        <line x1="17" y1="32" x2="25" y2="33" stroke="#5B9BD5" stroke-width="0.7" opacity="0.7"/>
+        <line x1="17" y1="34" x2="25" y2="34" stroke="#5B9BD5" stroke-width="0.7" opacity="0.7"/>
+        <line x1="35" y1="33" x2="43" y2="32" stroke="#5B9BD5" stroke-width="0.7" opacity="0.7"/>
+        <line x1="35" y1="34" x2="43" y2="34" stroke="#5B9BD5" stroke-width="0.7" opacity="0.7"/>
+        <path d="M20 28 C18 30 18 34 20 36" stroke="#5B9BD5" stroke-width="0.8" fill="none" stroke-linecap="round" opacity="0.5"/>
+        <path d="M40 28 C42 30 42 34 40 36" stroke="#5B9BD5" stroke-width="0.8" fill="none" stroke-linecap="round" opacity="0.5"/>
+      </svg>
+    </div>
+    <div class="logo-text-wrap">
+      <div class="logo-name">ilteksan</div>
+      <div class="logo-sub">Mühendislik San. ve Tic. Ltd. Sti.</div>
+    </div>
+  </a>
+  <ul class="nav-center" id="navLinks">
+    <li><a href="#home" data-i18n="nav.home">Home</a></li>
+    <li><a href="#about" data-i18n="nav.about">About</a></li>
+    <li><a href="#partners" data-i18n="nav.partners">Partners</a></li>
+    <li><a href="#services" data-i18n="nav.services">Services</a></li>
+    <li><a href="#team" data-i18n="nav.team">Team</a></li>
+    <li><a href="#testimonials" data-i18n="nav.testimonials">References</a></li>
+    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <div style="display:flex;gap:12px;align-items:center">
+      <button id="themeToggle" class="lang-trigger" style="border:1px solid var(--glass-border);background:var(--glass);border-radius:6px;padding:7px 12px;cursor:pointer;display:flex;align-items:center;gap:6px;color:var(--silver);font-size:12px;font-weight:600;">
+        <span id="themeIcon">🌙</span>
+      </button>
+      <div class="lang-btn">
+        <button class="lang-trigger">
+          <span id="currentFlag">🌐</span>
+          <span id="currentLangCode">EN</span>
+          <svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+        </button>
+        <div class="lang-dropdown">
+          <button class="lang-option active" data-lang="en">🇬🇧 English</button>
+          <button class="lang-option" data-lang="ar">🇸🇦 العربية</button>
+          <button class="lang-option" data-lang="tr">🇹🇷 Türkçe</button>
+          <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+          <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+          <button class="lang-option" data-lang="it">🇮🇹 Italiano</button>
+          <button class="lang-option" data-lang="pt">🇵🇹 Português</button>
+          <button class="lang-option" data-lang="ru">🇷🇺 Русский</button>
+        </div>
+      </div>
+      <button class="nav-cta" data-i18n="nav.cta" onclick="openRequestModal()">Request Quote</button>
+      <a href="catalog.pdf" class="nav-cta catalog-btn" data-i18n="nav-cta.catalog-btn" download> 
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+    Catalog
+  </a>
+      <a href="javascript:void(0)" class="nav-cta career-btn" data-i18n="nav-cta.career-btn" onclick="openModal()">Join Us</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="slide active" id="slide-0">
+    <canvas class="slide-canvas" id="canvas-0"></canvas>
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <div class="slide-eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text" data-i18n="slide.partner">Featured Partner</span></div>
+      <div class="slide-company"><img src="https://lh3.googleusercontent.com/proxy/Nll78PbPVke_414ghruj5p_nus_Ff4r0Mixqzia7G1qm36Hr4yTelkPrkGjm10lMExlwUG1LNkhWa9lAoydtjhElNfgcjBq6CNFoRUWY9yBxl_QjgcV1T9xg3wXOyf1XB6nJMg" style="height:80px; width:auto; filter:brightness(1.2); margin-bottom:15px;"></div>
+      <h1 class="slide-title" data-i18n="slide0.title">Industrial<br><em>Compressors</em></h1>
+      <p class="slide-desc" data-i18n="slide0.desc">Turbo Compressors (Oil-Free, Centrifugal) | Energy-Saving Turbo Systems | Heat Recovery Solutions | Control & Monitoring Systems (RMS PLC).</p>
+      <div class="slide-actions">
+        <a href="#" class="btn-slide-primary" data-i18n="slide.explore">Explore Products</a>
+      </div>
+    </div>
+  </div>
+  <div class="slide" id="slide-1">
+    <canvas class="slide-canvas" id="canvas-1"></canvas>
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <div class="slide-eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text" data-i18n="slide.partner">Featured Partner</span></div>
+      <div class="slide-company"><img src="https://turbowin.com/theme/turb/images/layout/hd_logo.png" style="height:80px; width:auto; filter:brightness(1.2); margin-bottom:15px;"></div>
+      <h1 class="slide-title" data-i18n="slide1.title">Turbo<br><em>Technology</em></h1>
+      <p class="slide-desc" data-i18n="slide1.desc">Turbo Compressors (Air-Bearing, Multi-Stage) | Turbo Blowers (WL Series, WH Series) | High-Efficiency Energy-Saving Systems.</p>
+      <div class="slide-actions">
+        <a href="#" class="btn-slide-primary" data-i18n="slide.explore">Explore Products</a>
+      </div>
+    </div>
+  </div>
+  <div class="slide" id="slide-2">
+    <canvas class="slide-canvas" id="canvas-2"></canvas>
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <div class="slide-eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text" data-i18n="slide.partner">Featured Partner</span></div>
+      <div class="slide-company"><img src="https://www.technodesignsindia.com/images/logo.png" style="height:80px; width:auto; filter:brightness(1.2); margin-bottom:15px;"></div>
+      <h1 class="slide-title" data-i18n="slide2.title">Industrial<br><em>Processing Equipment</em></h1>
+      <p class="slide-desc" data-i18n="slide2.desc">Ball Mills & Mineral Grinding Plants | Rotary Dryers | Air Classifiers | Diverter Valves & Rotary Valves.</p>
+      <div class="slide-actions">
+        <a href="#" class="btn-slide-primary" data-i18n="slide.explore">Explore Products</a>
+      </div>
+    </div>
+  </div>
+  <div class="slide" id="slide-3">
+    <canvas class="slide-canvas" id="canvas-3"></canvas>
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <div class="slide-eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text" data-i18n="slide.partner">Featured Partner</span></div>
+      <div class="slide-company"><img src="https://aerodry.com/images/logo.webp" style="height:80px; width:auto; filter:brightness(1.2); margin-bottom:15px;"></div>
+      <h1 class="slide-title" data-i18n="slide3.title">Industrial<br><em>Drying Systems</em></h1>
+      <p class="slide-desc" data-i18n="slide3.desc">Hot Air Dryers | Dehumidifying Dryers | Gravimetric & Volumetric Dosing Systems | Hopper Loaders.</p>
+      <div class="slide-actions">
+        <a href="#" class="btn-slide-primary" data-i18n="slide.explore">Explore Products</a>
+      </div>
+    </div>
+  </div>
+  <div class="slide" id="slide-4">
+    <canvas class="slide-canvas" id="canvas-4"></canvas>
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <div class="slide-eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text" data-i18n="slide.partner">Featured Partner</span></div>
+      <div class="slide-company"><img src="https://www.ilmedimpianti.com/wp-content/uploads/2026/02/cropped-ilmed-impianti-logo.png" style="height:80px; width:auto; filter:brightness(1.2); margin-bottom:15px;"></div>
+      <h1 class="slide-title" data-i18n="slide4.title">Industrial<br><em>Cooling Solutions</em></h1>
+      <p class="slide-desc" data-i18n="slide4.desc">Evaporative Cooling Towers | Air Coolers | Evaporative Condensers | Water Treatment Systems.</p>
+      <div class="slide-actions">
+        <a href="#" class="btn-slide-primary" data-i18n="slide.explore">Explore Products</a>
+      </div>
+    </div>
+  </div>
+  <div class="slide" id="slide-5">
+    <canvas class="slide-canvas" id="canvas-5"></canvas>
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <div class="slide-eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text" data-i18n="slide.partner">Featured Partner</span></div>
+      <div class="slide-company"><img src="https://untes.com.tr/wp-content/uploads/2022/06/UntesLogo-1.png" style="height:80px; width:auto; filter:brightness(1.2); margin-bottom:15px;"></div>
+      <h1 class="slide-title" data-i18n="slide5.title">HVAC &<br><em>Chillers</em></h1>
+      <p class="slide-desc" data-i18n="slide5.desc">Air-Cooled Chillers | Water-Cooled Chillers | Turbocor Chillers | Heat Pump Chillers.</p>
+      <div class="slide-actions">
+        <a href="#" class="btn-slide-primary" data-i18n="slide.explore">Explore Products</a>
+      </div>
+    </div>
+  </div>
+  <div class="thumb-rail" id="thumbRail"></div>
+  <div class="slide-controls">
+    <button class="ctrl-btn" id="prevBtn">&#8592;</button>
+    <div class="slide-progress" id="slideProgress"></div>
+    <button class="ctrl-btn" id="nextBtn">&#8594;</button>
+  </div>
+  <div class="slide-counter" id="slideCounter"><span>01</span> / 06</div>
+  <div class="progress-line" id="progressLine"></div>
+</section>
+
+<div class="partners-bar"><div class="ticker-track" id="ticker"></div></div>
+
+<section class="section bg-alt" id="about">
+  <div class="section-tag">
+    <div class="tag-line"></div>
+    <span class="tag-text" data-i18n="about.tag">About İlteksan</span>
+  </div>
+  <div class="intro-grid">
+    <div class="intro-text">
+      <h2 class="section-title" data-i18n="about.title">Shaping the Future of<br><em>Advanced Industry</em></h2>
+      <p data-i18n="about.p1">İlteksan Mühendislik is a leading engineering and technical solutions company specializing in industrial compression, HVAC, cooling, and process systems. We represent the world's most trusted manufacturers across Türkiye and the region.</p>
+      <p data-i18n="about.p2">From initial consultation and equipment supply to commissioning and long-term after-sales support, our team of expert engineers ensures every system performs at peak efficiency throughout its operational life.</p>
+      <p data-i18n="about.p3">With deep expertise across manufacturing, energy, water treatment, and pharmaceuticals, we deliver integrated solutions that drive operational excellence and measurable results.</p>
+    </div>
+    <div class="intro-stats">
+      <div class="i-stat">
+        <div class="i-num">10+</div>
+        <div class="i-label" data-i18n="stat.years">Years Experience</div>
+      </div>
+      <div class="i-stat">
+        <div class="i-num">500+</div>
+        <div class="i-label" data-i18n="stat.projects">Projects Completed</div>
+      </div>
+      <div class="i-stat">
+        <div class="i-num">6</div>
+        <div class="i-label" data-i18n="stat.partners">Global Partners</div>
+      </div>
+      <div class="i-stat">
+        <div class="i-num">100%</div>
+        <div class="i-label" data-i18n="stat.satisfaction">Client Satisfaction</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-dark" id="partners">
+  <div class="section-tag">
+    <div class="tag-line"></div>
+    <span class="tag-text" data-i18n="partners.tag">Our Partners</span>
+  </div>
+  <h2 class="section-title" data-i18n="partners.title">World-Class<br><em>Technology Partners</em></h2>
+  <div class="companies-grid" id="companiesGrid"></div>
+</section>
+
+<section class="section bg-alt" id="services">
+  <div class="section-tag">
+    <div class="tag-line"></div>
+    <span class="tag-text" data-i18n="services.tag">Our Services</span>
+  </div>
+  <h2 class="section-title" data-i18n="services.title">Complete<br><em>Engineering Services</em></h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+      <div class="service-title" data-i18n="svc1.title">Equipment Supply</div>
+      <div class="service-desc" data-i18n="svc1.desc">Direct supply of industrial compressors, blowers, cooling systems, HVAC, and drying equipment from certified global partners.</div>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93L17.66 6.34M6.34 17.66L4.93 19.07M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2m16 0h2M12 2v2m0 16v2"/></svg></div>
+      <div class="service-title" data-i18n="svc2.title">Commissioning</div>
+      <div class="service-desc" data-i18n="svc2.desc">Expert on-site installation and commissioning by certified engineers, ensuring every system is configured to specifications.</div>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div>
+      <div class="service-title" data-i18n="svc3.title">After-Sales Support</div>
+      <div class="service-desc" data-i18n="svc3.desc">Comprehensive maintenance, genuine spare parts supply, and rapid technical support to minimize operational downtime.</div>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg></div>
+      <div class="service-title" data-i18n="svc4.title">System Design</div>
+      <div class="service-desc" data-i18n="svc4.desc">Complete engineering design for compressed air, HVAC, cooling, and industrial drying processes tailored to your facility.</div>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+      <div class="service-title" data-i18n="svc5.title">Technical Consulting</div>
+      <div class="service-desc" data-i18n="svc5.desc">Energy efficiency audits, capacity optimization, and expert guidance on selecting the right technology for your process.</div>
+    </div>
+    <div class="service-card">
+      <div class="service-icon"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+      <div class="service-title" data-i18n="svc6.title">Energy Optimization</div>
+      <div class="service-desc" data-i18n="svc6.desc">Smart monitoring solutions to reduce energy consumption, extend equipment life, and achieve sustainable targets.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-dark" id="team">
+  <div class="section-tag"><div class="tag-line"></div><span class="tag-text" data-i18n="team.tag">Our Team</span></div>
+  <h2 class="section-title" data-i18n="team.title">The Experts<br><em>Behind İlteksan</em></h2>
+  <div class="team-grid" id="teamGrid"></div>
+</section>
+
+<section class="section bg-alt" id="testimonials">
+  <div class="section-tag">
+    <div class="tag-line"></div>
+    <span class="tag-text" data-i18n="testimonials.tag">Client References</span>
+  </div>
+  <h2 class="section-title" data-i18n="testimonials.title">
+    Trusted by<br><em>Industry Leaders</em>
+  </h2>
+  <div class="testimonials-wrapper">
+    <div class="testimonials-scroll-container">
+      <div class="testimonials-grid" id="testimonialsGrid"></div>
+    </div>
+    <button class="testimonials-scroll-btn testimonials-scroll-left" id="scrollLeft" title="Scroll Left">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="15 18 9 12 15 6"></polyline>
+      </svg>
+    </button>
+    <button class="testimonials-scroll-btn testimonials-scroll-right" id="scrollRight" title="Scroll Right">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </button>
+  </div>
+</section>
+<section class="section bg-dark" id="contact">
+  <div class="section-tag">
+    <div class="tag-line"></div>
+    <span class="tag-text" data-i18n="contact.tag">Get In Touch</span>
+  </div>
+  <h2 class="section-title" data-i18n="contact.title">Let's Work<br><em>Together</em></h2>
+  <div class="contact-wrap" style="display:grid; grid-template-columns:1fr 1fr; gap: 40px; margin-top: 30px;">
+    <div class="contact-info">
+      <h3 style="color: var(--blue); margin-bottom: 20px; font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 1.1rem; line-height: 1.4;">
+        İlteksan Mühendislik San. ve Tic. Ltd. Şti.
+      </h3>
+      <div class="c-info-item">
+        <div class="c-info-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <div>
+          <div class="c-info-label" data-i18n="contact.address">Address</div>
+          <div class="c-info-value">1.ORG. SAN. BÖL. 83101 NOLU SOKAK NO:17 NO:29 Şehitkamil – Gaziantep<br>Türkiye</div>
+        </div>
+      </div>
+      <div class="c-info-item">
+        <div class="c-info-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.1 1.18 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09A16 16 0 0016.06 16l.46-.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+        <div>
+          <div class="c-info-label" data-i18n="contact.phone">Phone</div>
+          <div class="c-info-value"><a href="https://wa.me/905521642215" style="color:inherit;text-decoration:none">+90 552 164 22 15</a></div>
+        </div>
+      </div>
+      <div class="c-info-item">
+        <div class="c-info-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+        <div>
+          <div class="c-info-label" data-i18n="contact.email">Email</div>
+          <div class="c-info-value"><a href="mailto:sales@ilteksan.com" style="color:inherit;text-decoration:none">sales@ilteksan.com</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-info">
+      <h3 style="color: var(--blue); margin-bottom: 20px; font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 1.1rem; line-height: 1.4;">
+        İlteksan Makina Sanayi ve Ticaret A.Ş.
+      </h3>
+      <div class="c-info-item">
+        <div class="c-info-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+        <div>
+          <div class="c-info-label" data-i18n="contact.address">Address</div>
+          <div class="c-info-value">Ertuğrul Mah. 135 Sk. D Blok No:14 Dükkan No:8 Nilüfer – Bursa<br>Türkiye</div>
+        </div>
+      </div>
+      <div class="c-info-item">
+        <div class="c-info-icon"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.1 1.18 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09A16 16 0 0016.06 16l.46-.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+        <div>
+          <div class="c-info-label" data-i18n="contact.phone">Phone</div>
+          <div class="c-info-value"><a href="https://wa.me/905324203127" style="color:inherit;text-decoration:none">+90 532 420 31 27</a></div>
+        </div>
+      </div>
+      <div class="c-info-item">
+        <div class="c-info-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+        <div>
+          <div class="c-info-label" data-i18n="contact.email">Email</div>
+          <div class="c-info-value"><a href="mailto:o.kavala@ilteksan.com" style="color:inherit;text-decoration:none">o.kavala@ilteksan.com</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>  
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+  .custom-marker {
+    background: transparent;
+    border: none;
+  }
+  .marker-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .marker-label {
+    background: #2E5FA3;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  .marker-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+
+  @media (max-width: 768px) {
+    html, body {
+      overflow-x: hidden !important;
+      max-width: 100vw !important;
+    }
+    .contact-wrap {
+      grid-template-columns: 1fr !important;
+    }
+    .t-avatar {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+    .slide-content {
+      margin-right: 0 !important;
+    }
+  } 
+
+
+  @media (min-width: 769px) {
+    nav {
+        padding: 0 2% !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    .nav-center {
+        gap: clamp(5px, 1vw, 20px) !important; 
+        flex-wrap: nowrap !important;
+        display: flex !important;
+    }
+    .nav-center a {
+        font-size: clamp(11px, 0.9vw, 14px) !important;
+        padding: 5px 2px !important;
+        white-space: nowrap !important; 
+    }
+    .nav-right {
+        gap: clamp(4px, 0.5vw, 10px) !important;
+        flex-wrap: nowrap !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    .nav-cta {
+        font-size: clamp(10px, 0.8vw, 13px) !important;
+        padding: clamp(6px, 0.5vw, 10px) clamp(8px, 0.7vw, 15px) !important;
+        white-space: nowrap !important;
+    }
+  }
+  html[lang="ru"] .nav-center a {
+    font-size: clamp(9px, 0.8vw, 12px) !important;
+    letter-spacing: 0px !important; 
+}
+
+html[lang="ru"] .nav-cta {
+    font-size: clamp(9px, 0.7vw, 11px) !important;
+    padding: 5px 8px !important;
+}
+
+html[lang="ru"] .nav-center {
+    gap: 5px !important;
+}
+html[lang="tr"] .nav-center a {
+    font-size: clamp(10px, 0.85vw, 13px) !important;
+    letter-spacing: -0.2px !important; 
+}
+
+html[lang="tr"] .nav-cta {
+    font-size: clamp(9px, 0.75vw, 12px) !important;
+    padding: clamp(5px, 0.4vw, 8px) clamp(6px, 0.6vw, 12px) !important;
+}
+
+html[lang="tr"] .nav-center {
+    gap: clamp(4px, 0.8vw, 15px) !important;
+}
+
+html[lang="tr"] .nav-right {
+    gap: 5px !important;
+}
+</style>
+</head>
+<body>
+  <div id="ilteksan-map" style="width:90%;height:350px;border-radius:12px;margin:40px auto;"></div>
+  <script>
+    function initDualMap(containerId, location1, location2) {
+      var centerLat = (location1.lat + location2.lat) / 2;
+      var centerLng = (location1.lng + location2.lng) / 2;
+      var map = L.map(containerId, {
+        scrollWheelZoom: false
+      }).setView([centerLat, centerLng], 6);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap'
+      }).addTo(map);
+      function createMarker(location, logoUrl, googleUrl) {
+        return L.marker([location.lat, location.lng], {
+          icon: L.divIcon({
+            className: 'custom-marker',
+            html: `
+              <a href="${googleUrl}" target="_blank" style="text-decoration:none;">
+                <div class="marker-wrapper">
+                  <div class="marker-label">${location.name}</div>
+                  <div class="marker-logo" style="background-image:url('${logoUrl}')"></div>
+                </div>
+              </a>
+            `,
+            iconSize: [80, 80],
+            iconAnchor: [40, 60]
+          })
+        }).addTo(map);
+      }
+      createMarker(
+        location1,
+        'https://up6.cc/2026/04/177555253479071.png',
+        'https://maps.app.goo.gl/1AFqviyrjfgyB9yQA'
+      );
+      createMarker(
+        location2,
+        'https://b.top4top.io/p_37492ptz91.png',
+        'https://maps.app.goo.gl/VkrQ6TrppvrWqACf8'
+      );
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+      initDualMap(
+        'ilteksan-map',
+        {
+          lat: 37.146417,
+          lng: 37.291111,
+          name: 'İlteksan Mühendislik',
+          address: 'Gaziantep'
+        },
+        {
+          lat: 40.217887,
+          lng: 28.921394,
+          name: 'İlteksan Makina',
+          address: 'Bursa'
+        }
+      );
+    });
+  </script>
+</body>
+<div class="social-row" style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;">
+  <a href="https://wa.me/905521642215" class="soc-btn" title="WhatsApp" target="_blank" style="display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:12px;background:#25D366;">
+    <svg viewBox="0 0 24 24" fill="#fff" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+  <a href="https://www.facebook.com/ilteksan" class="soc-btn" title="Facebook" target="_blank" style="display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:12px;background:#1877F2;">
+    <svg viewBox="0 0 24 24" fill="#fff" width="28" height="28"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+  </a>
+  <a href="https://www.instagram.com/ilteksan" class="soc-btn" title="Instagram" target="_blank" style="display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:12px;background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fd5949 45%,#d6249f 60%,#285AEB 90%);">
+    <svg viewBox="0 0 24 24" fill="#fff" width="28" height="28"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+  </a>
+  <a href="https://www.linkedin.com/company/i%CC%87lteksan/" class="soc-btn" title="LinkedIn" target="_blank" style="display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:12px;background:#0A66C2;">
+    <svg viewBox="0 0 24 24" fill="#fff" width="28" height="28"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+  </a>
+  <a href="https://www.youtube.com/@ilteksan" class="soc-btn" title="YouTube" target="_blank" style="display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:12px;background:#FF0000;">
+    <svg viewBox="0 0 24 24" fill="#fff" width="28" height="28"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+  </a>
+  <a href="https://x.com/ilteksan" class="soc-btn" title="X" target="_blank" style="display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:12px;background:#000;">
+    <svg viewBox="0 0 24 24" fill="#fff" width="28" height="28"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.648l-5.07-6.554-5.848 6.554H2.18l7.732-8.835L1.254 2.25h6.554l4.596 6.06 5.908-6.06zM17.15 18.637h1.828L5.896 4.05H4.015l13.135 14.587z"/></svg>
+  </a>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="nav-logo" style="width:fit-content">
+        <div class="logo-circle" style="background:transparent;border:none;padding:0;overflow:visible">
+          <img src="https://up6.cc/2026/04/177555253479071.png" alt="İlteksan Logo" style="width:54px;height:54px;border-radius:50%;object-fit:cover;display:block;"/>
+        </div>
+        <div class="logo-text-wrap">
+          <div class="logo-name">ilteksan</div>
+          <div class="logo-sub">Mühendislik San. ve Tic. Ltd. Sti.</div>
+        </div>
+      </a>
+      <p class="footer-desc" data-i18n="footer.desc">Engineering solutions for industrial compression, HVAC, cooling, and process systems. Representing world-class technology partners.</p>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer.company">Company</h4>
+      <ul class="footer-links">
+        <li><a href="#about" data-i18n="footer.about">About Us</a></li>
+        <li><a href="#services" data-i18n="footer.services">Services</a></li>
+        <li><a href="#team" data-i18n="footer.team">Our Team</a></li>
+        <li><a href="#testimonials" data-i18n="footer.testimonials">References</a></li>
+        <li><a href="#contact" data-i18n="footer.contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="nav.partners">Partners</h4>
+      <ul class="footer-links">
+        <li><a href="#">IHI Dalgakiran</a></li>
+        <li><a href="#">TURBOWIN</a></li>
+        <li><a href="#">Techno Designs</a></li>
+        <li><a href="#">Aerodry</a></li>
+        <li><a href="#">Ilmed Impianti</a></li>
+        <li><a href="#">ÜNTES</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer.products">Products</h4>
+      <ul class="footer-links">
+        <li><a href="#" data-i18n="footer.compressors">Compressors</a></li>
+        <li><a href="#" data-i18n="footer.blowers">Turbo Blowers</a></li>
+        <li><a href="#" data-i18n="footer.hvac">HVAC / AHU</a></li>
+        <li><a href="#" data-i18n="footer.cooling">Cooling Systems</a></li>
+        <li><a href="#" data-i18n="footer.drying">Drying Systems</a></li>
+        <li><a href="#" data-i18n="footer.chemical">Chemical Process</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">
+      © 2026 İlteksan Mühendislik San. ve Tic. Ltd. Sti. <span data-i18n="footer.rights">All rights reserved.</span>
+    </div>
+    <div class="footer-legal">
+      <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+      <a href="#" data-i18n="footer.terms">Terms of Use</a>
+      <a href="#" data-i18n="footer.sitemap">Sitemap</a>
+    </div>
+  </div>
+</footer>
+
+<div class="float-container">
+  <a class="float-btn float-email" href="mailto:sales@ilteksan.com" title="Email Us">
+    <div class="float-icon"><svg viewBox="0 0 24 24" width="18" height="18" stroke="white" fill="none" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+    <span class="float-label">Email Us</span>
+  </a>
+  <a class="float-btn float-wa" href="https://wa.me/905521642215" target="_blank" title="WhatsApp">
+    <div class="float-icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></div>
+    <span class="float-label">WhatsApp</span>
+  </a>
+</div>
+
+
+
+<script>
+let isDarkMode = true;
+const lightModeColors = {
+  '--navy':'#F5F7FA',
+  '--navy2':'#E8EEF5',
+  '--navy3':'#DFE7F0',
+  '--navy4':'#FFFFFF',
+  '--blue':'#2E5FA3',
+  '--blue2':'#3A78CC',
+  '--blue-light':'#5B9BD5',
+  '--blue-pale':'#A8C8E8',
+  '--white':'#1B2A4A',
+  '--off-white':'#EEF3FA',
+  '--silver':'#4A5F7A',
+  '--silver2':'#65738A',
+  '--dim':'#7A8DA3',
+  '--accent':'#4A9FD4',
+  '--accent2':'#6BBCE0',
+  '--text-on-dark':'#1B2A4A',
+  '--glass':'rgba(46,95,163,0.08)',
+  '--glass-border':'rgba(46,95,163,0.15)',
+};
+const darkModeColors = {
+  '--navy':'#1B2A4A',
+  '--navy2':'#243558',
+  '--navy3':'#0F1E36',
+  '--navy4':'#0A1628',
+  '--blue':'#2E5FA3',
+  '--blue2':'#3A78CC',
+  '--blue-light':'#5B9BD5',
+  '--blue-pale':'#A8C8E8',
+  '--white':'#FFFFFF',
+  '--off-white':'#EEF3FA',
+  '--silver':'#B8C8DC',
+  '--silver2':'#7A90A8',
+  '--dim':'#4A5F7A',
+  '--accent':'#4A9FD4',
+  '--accent2':'#6BBCE0',
+  '--text-on-dark':'#E8F0F8',
+  '--glass':'rgba(255,255,255,0.06)',
+  '--glass-border':'rgba(74,159,212,0.2)',
+};
+function applyTheme(isDark) {
+  const colors = isDark ? darkModeColors : lightModeColors;
+  Object.entries(colors).forEach(([key, value]) => {
+    document.documentElement.style.setProperty(key, value);
+  });
+  const icon = document.getElementById('themeIcon');
+  if (icon) icon.textContent = isDark ? '☀️' : '🌙';
+  localStorage.setItem('isDarkMode', isDark);
+}
+document.getElementById('themeToggle').addEventListener('click', () => {
+  isDarkMode = !isDarkMode;
+  applyTheme(isDarkMode);
+});
+const saved = localStorage.getItem('isDarkMode');
+if (saved === null) applyTheme(true); 
+else applyTheme(saved === 'true');
+let isMuted = true;
+function toggleMute() {
+  const iframe = document.getElementById('vimeoPlayer');
+  if (isMuted) {
+    iframe.src = iframe.src.replace('&muted=1','&muted=0');
+    document.getElementById('muteX').style.display = 'none';
+    isMuted = false;
+  } else {
+    iframe.src = iframe.src.replace('&muted=0','&muted=1');
+    document.getElementById('muteX').style.display = '';
+    isMuted = true;
+  }
+}
+window.addEventListener('scroll', function() {
+  const nav = document.getElementById('navbar');
+  const videoH = document.getElementById('video-intro').offsetHeight;
+  if (window.scrollY >= videoH - 10) {
+    nav.classList.add('visible');
+    if (window.scrollY > videoH + 40) nav.classList.add('scrolled');
+    else nav.classList.remove('scrolled');
+  } else {
+    nav.classList.remove('visible');
+    nav.classList.remove('scrolled');
+  }
+}, {passive:true});
+const i18n = {
+  en: {
+    'nav.home':'Home','nav.about':'About','nav.partners':'Partners','nav.services':'Services','nav.team':'Team','nav.testimonials':'References','nav.contact':'Contact','nav.cta':'Request Quote','nav-cta.catalog-btn':'Catalog','nav-cta.career-btn':'Join Us',
+    'slide.partner':'Featured Partner','slide.explore':'Explore Products',
+    'slide0.title':'Industrial<br><em>Compressors</em>', 'slide0.desc':'Turbo Compressors (Oil-Free, Centrifugal) | Energy-Saving Turbo Systems | Heat Recovery Solutions.',
+    'slide1.title':'Turbo<br><em>Technology</em>', 'slide1.desc':'Turbo Compressors (Air-Bearing, Multi-Stage) | Turbo Blowers (WL & WH Series) | High-Efficiency Systems.',
+    'slide2.title':'Industrial<br><em>Processing Equipment</em>', 'slide2.desc':'Ball Mills & Mineral Grinding Plants | Rotary Dryers | Air Classifiers | Diverter Valves.',
+    'slide3.title':'Industrial<br><em>Drying Systems</em>', 'slide3.desc':'Hot Air Dryers | Dehumidifying Dryers | Gravimetric Dosing Systems | Hopper Loaders.',
+    'slide4.title':'Industrial<br><em>Cooling Solutions</em>', 'slide4.desc':'Evaporative Cooling Towers | Air Coolers | Evaporative Condensers | Water Treatment.',
+    'slide5.title':'HVAC &<br><em>Chillers</em>', 'slide5.desc':'Air-Cooled Chillers | Water-Cooled Chillers | Turbocor Chillers | Heat Pump Chillers.',
+    'about.tag': 'About İlteksan', 
+    'about.title': 'Shaping the Future of<br><em>Advanced Industry</em>',
+    'about.p1': 'İlteksan Mühendislik is a leading engineering and technical solutions company specializing in industrial compression, HVAC, cooling, and process systems. We represent the world\'s most trusted manufacturers across Türkiye and the region.',
+    'about.p2': 'From initial consultation and equipment supply to commissioning and long-term after-sales support, our team of expert engineers ensures every system performs at peak efficiency throughout its operational life.',
+    'about.p3': 'With deep expertise across manufacturing, energy, water treatment, and pharmaceuticals, we deliver integrated solutions that drive operational excellence and measurable results.',
+    'stat.years':'Years Experience','stat.projects':'Projects Completed','stat.partners':'Global Partners','stat.satisfaction':'Client Satisfaction',
+    'partners.tag': 'Our Partners', 'partners.title': 'World-Class<br><em>Technology Partners</em>',
+    'services.tag': 'Our Services', 'services.title': 'Complete<br><em>Engineering Services</em>',
+    'svc1.title':'Equipment Supply', 'svc1.desc':'Direct supply of industrial compressors, blowers, cooling systems, HVAC, and drying equipment from certified global partners.',
+    'svc2.title':'Commissioning', 'svc2.desc':'Expert on-site installation and commissioning by certified engineers, ensuring every system is configured to specifications.',
+    'svc3.title':'After-Sales Support', 'svc3.desc':'Comprehensive maintenance, genuine spare parts supply, and rapid technical support to minimize operational downtime.',
+    'svc4.title':'System Design', 'svc4.desc':'Complete engineering design for compressed air, HVAC, cooling, and industrial drying processes tailored to your facility.',
+    'svc5.title':'Technical Consulting', 'svc5.desc':'Energy efficiency audits, capacity optimization, and expert guidance on selecting the right technology for your process.',
+    'svc6.title':'Energy Optimization', 'svc6.desc':'Smart monitoring solutions to reduce energy consumption, extend equipment life, and achieve sustainable targets.',
+    'team.tag': 'Our Team', 'team.title': 'The Experts<br><em>Behind İlteksan</em>',
+    'tm1.role': 'Founder', 'tm1.desc': 'Senior Mechanical Engineer. Director of İlteksan Mühendislik.',
+    'tm2.role': 'Founder & Financial Director', 'tm2.desc': 'Finance Expert. Director of İlteksan Mühendislik (Gaziantep Head Office).',
+    'tm3.role': 'Founder & İlteksan Makina Director', 'tm3.desc': 'Mechanical Engineer & Branch Manager (Bursa). Director of İlteksan Makina.',
+    'tm4.role': 'Founder & Services Director', 'tm4.desc': 'Technical Service Director. Oversees all after-sales support and technical operations.',
+    'tm5.role': 'Services Manager', 'tm5.desc': 'Technical Service Manager. Oversees all after-sales support and technical operations.',
+    'tm6.role': 'Sales Engineer', 'tm6.desc': 'Sales, business development, and marketing engineer in local and international markets.',
+    'tm7.role': 'Services Engineer', 'tm7.desc': 'Provides after-sales support and maintenance. Ensures efficient operation of systems.',
+    'tm8.role': 'Accounting Manager', 'tm8.desc': 'Manages accounting operations and financial reporting. Ensures compliance and accuracy of financial records.',
+    'sector0':'Industrial Compressors','sector1':'Turbo Technology','sector2':'Industrial Processing Equipment','sector3':'Industrial Drying Systems','sector4':'Industrial Cooling Solutions','sector5':'HVAC & Chillers',
+    'p0_0':'Turbo Compressors (Oil-Free, Centrifugal)', 'p0_1':'Energy-Saving Turbo Systems', 'p0_2':'Heat Recovery Solutions', 'p0_3':'Control & Monitoring Systems (RMS PLC)',
+    'p1_0':'Turbo Compressors (Air-Bearing, Multi-Stage)', 'p1_1':'Turbo Blowers (WL & WH Series)', 'p1_2':'High-Efficiency Energy-Saving Systems', 'p1_3':'Applications: Textile, Food, Petrochemical, Marine',
+    'p2_0':'Ball Mills & Mineral Grinding Plants', 'p2_1':'Rotary Dryers', 'p2_2':'Air Classifiers', 'p2_3':'Diverter Valves & Rotary Valves', 'p2_4':'Storage Silos', 'p2_5':'Resin & Chemical Processing Plants',
+    'p3_0':'Hot Air Dryers', 'p3_1':'Dehumidifying Dryers', 'p3_2':'Gravimetric & Volumetric Dosing Systems', 'p3_3':'Hopper Loaders & Conveying Systems', 'p3_4':'Mould Temperature Controllers', 'p3_5':'Process Water Chillers',
+    'p4_0':'Evaporative Cooling Towers (Open & Closed)', 'p4_1':'Air Coolers', 'p4_2':'Evaporative Condensers', 'p4_3':'Linked Water Treatment Systems', 'p4_4':'Customized Cooling Solutions for Industries',
+    'p5_0':'Air-Cooled Chillers (Scroll & Screw)', 'p5_1':'Water-Cooled Chillers', 'p5_2':'Turbocor Chillers (TurboPOWER)', 'p5_3':'Heat Pump Chillers (Energy-Efficient)', 'p5_4':'Central HVAC Systems for Facilities',
+    'testimonials.tag': 'Client References', 'testimonials.title': 'Trusted by<br><em>Industry Leaders</em>',
+    'contact.tag': 'Get In Touch', 'contact.title': "Let's Work<br><em>Together</em>", 'contact.address': 'Address', 'contact.phone': 'Phone', 'contact.email': 'Email',
+    'footer.desc': 'Engineering solutions for industrial compression, HVAC, cooling, and process systems. Representing world-class technology partners.',
+    'footer.company': 'Company', 'footer.partners': 'Partners', 'footer.products': 'Products', 'footer.about': 'About Us', 'footer.services': 'Services', 'footer.team': 'Our Team', 'footer.testimonials': 'References', 'footer.contact': 'Contact',
+    'footer.compressors': 'Compressors', 'footer.blowers': 'Turbo Blowers', 'footer.hvac': 'HVAC / AHU', 'footer.cooling': 'Cooling Systems', 'footer.drying': 'Drying Systems', 'footer.chemical': 'Chemical Process',
+    'footer.rights': 'All rights reserved. | Hatim Elabdullah', 'footer.privacy': 'Privacy Policy', 'footer.terms': 'Terms of Use', 'footer.sitemap': 'Sitemap',
+    "modal.join_title": "Apply for a Position",
+"modal.full_name": "Full Name",
+"modal.email": "Email Address",
+"modal.phone": "Phone Number",
+"modal.upload_cv": "Upload CV (PDF)",
+"modal.submit": "Submit Application",
+"modal.request_title": "Send a Request",
+"modal.company_name": "Company Name",
+"modal.select_partner": "Select Partner / Product",
+"modal.notes": "Additional Notes",
+"modal.send_request": "Send Request"},
+  ar: {
+    'nav.home':'الرئيسية','nav.about':'عن الشركة','nav.partners':'شركاؤنا','nav.services':'الخدمات','nav.team':'الفريق','nav.testimonials':'المراجع','nav.contact':'اتصل بنا','nav.cta':'طلب عرض سعر','nav-cta.catalog-btn':'الكاتالوج','nav-cta.career-btn':'انضم إلينا',
+    'slide.partner':'شريك مميز','slide.explore':'استعرض المنتجات',
+    'slide0.title':'ضواغط<br><em>صناعية</em>', 'slide0.desc':'ضواغط توربينية (خالية من الزيت) | أنظمة توربو موفرة للطاقة | حلول استعادة الحرارة.',
+    'slide1.title':'تقنية<br><em>التوربو</em>', 'slide1.desc':'ضواغط توربينية (محامل هوائية) | منافيخ توربينية (سلسلة WL و WH) | أنظمة عالية الكفاءة.',
+    'slide2.title':'معدات<br><em>المعالجة الصناعية</em>', 'slide2.desc':'مطاحن الكرات ومصانع طحن المعادن | مجففات دوارة | مصنفات الهواء | صمامات تحويل.',
+    'slide3.title':'أنظمة<br><em>التجفيف الصناعي</em>', 'slide3.desc':'مجففات الهواء الساخن | مجففات إزالة الرطوبة | أنظمة الجرعات الجرافيمترية | محمل القادوس.',
+    'slide4.title':'حلول<br><em>التبريد الصناعي</em>', 'slide4.desc':'أبراج التبريد التبخيري | مبردات الهواء | مكثفات تبخيرية | معالجة المياه.',
+    'slide5.title':'التكييف<br><em>والمبردات (Chillers)</em>', 'slide5.desc':'مبردات مبردة بالهواء | مبردات مبردة بالماء | مبردات توربوكور | مبردات المضخات الحرارية.',
+    'about.tag': 'عن إلتكسان', 'about.title': 'صياغة مستقبل<br><em>الصناعة المتقدمة</em>',
+    'about.p1': 'إلتكسان للهندسة هي شركة رائدة في مجال الهندسة والحلول التقنية، متخصصة في أنظمة الضغط الصناعي، والتكييف، والتبريد، وأنظمة المعالجة. نحن نمثل المصنعين الأكثر ثقة في العالم عبر تركيا والمنطقة.',
+    'about.p2': 'من الاستشارة الأولية وتوريد المعدات إلى التشغيل ودعم ما بعد البيع طويل الأمد، يضمن فريقنا من المهندسين الخبراء أداء كل نظام بأقصى كفاءة طوال عمره التشغيلي.',
+    'about.p3': 'بفضل خبرتنا العميقة في مجالات التصنيع والطاقة ومعالجة المياه والأدوية، نقدم حلولاً متكاملة تدفع التميز التشغيلي وتحقق نتائج ملموسة.',
+    'stat.years':'سنة خبرة','stat.projects':'مشروع منجز','stat.partners':'شركاء عالميون','stat.satisfaction':'رضا العملاء',
+    'partners.tag': 'شركاؤنا', 'partners.title': 'شركاء تكنولوجيا<br><em>عالميون</em>',
+    'services.tag': 'خدماتنا', 'services.title': 'خدمات<br><em>هندسية متكاملة</em>',
+    'svc1.title':'تثبيت المعدات', 'svc1.desc':'توريد مباشر للضواغط الصناعية، والمنافيخ، وأنظمة التبريد، والتكييف، ومعدات التجفيف من شركاء عالميين معتمدين.',
+    'svc2.title':'التكليف والتشغيل', 'svc2.desc':'تركيب وتشغيل خبير في الموقع بواسطة مهندسين معتمدين، مما يضمن تكوين كل نظام وفقاً للمواصفات.',
+    'svc3.title':'دعم ما بعد البيع', 'svc3.desc':'صيانة شاملة، وتوفير قطع غيار أصلية، ودعم فني سريع لتقليل فترات التوقف عن العمل.',
+    'svc4.title':'تصميم الأنظمة', 'svc4.desc':'تصميم هندسي كامل للهواء المضغوط، والتكييف، والتبريد، وعمليات التجفيف الصناعي بما يتناسب مع منشأتك.',
+    'svc5.title':'الاستشارات الفنية', 'svc5.desc':'تدقيق كفاءة الطاقة، وتحسين السعة، وتوجيه الخبراء في اختيار التكنولوجيا المناسبة لعمليتك.',
+    'svc6.title':'تحسين الطاقة', 'svc6.desc':'حلول مراقبة ذكية لتقليل استهلاك الطاقة، وإطالة عمر المعدات، وتحقيق الأهداف المستدامة.',
+    'team.tag': 'فريقنا', 'team.title': 'الخبراء<br><em>خلف نجاح إلتكسان</em>',
+    'tm1.role': 'المؤسس', 'tm1.desc': 'مهندس ميكانيك أول. مدير شركة إلتكسان للهندسة.',
+    'tm2.role': 'المؤسس والمدير المالي', 'tm2.desc': 'خبير مالي. مدير شركة إلتكسان للهندسة (المقر الرئيسي في غازي عنتاب).',
+    'tm3.role': 'المؤسس ومدير إلتكسان ماكينا', 'tm3.desc': 'مهندس ميكانيك ومدير فرع (بورصة). مدير شركة إلتكسان ماكينا الصناعية.',
+    'tm4.role': 'المؤسس ومدير الخدمات', 'tm4.desc': 'مدير الخدمة الفنية. يشرف على جميع عمليات الدعم ما بعد البيع والعمليات الفنية.',
+    'tm5.role': 'مدير الخدمات', 'tm5.desc': 'مدير الخدمة الفنية. يشرف على جميع عمليات الدعم الفني والصيانة.',
+    'tm6.role': 'مهندس مبيعات', 'tm6.desc': 'مهندس مبيعات وتطوير أعمال وتسويق في الأسواق المحلية والدولية.',
+    'tm7.role': 'مهندس خدمات', 'tm7.desc': 'يقدم دعم ما بعد البيع والصيانة. يضمن التشغيل الفعال والموثوق للأنظمة.',
+    'tm8.role': 'مدير المحاسبة', 'tm8.desc': 'يدير العمليات المحاسبية والتقارير المالية. يضمن الامتثال ودقة السجلات المالية.',
+    'sector0':'ضواغط صناعية','sector1':'تقنية التوربو','sector2':'معدات المعالجة الصناعية','sector3':'أنظمة تجفيف صناعية','sector4':'حلول تبريد صناعية','sector5':'التكييف والمبردات',
+    'p0_0':'ضواغط توربينية (خالية من الزيت، طاردة مركزية)', 'p0_1':'أنظمة توربو موفرة للطاقة', 'p0_2':'حلول استعادة الحرارة', 'p0_3':'أنظمة التحكم والمراقبة (RMS PLC)',
+    'p1_0':'ضواغط توربينية (محامل هوائية، متعددة المراحل)', 'p1_1':'منفاخات توربينية (سلسلة WL، سلسلة WH)', 'p1_2':'أنظمة توفير طاقة عالية الكفاءة', 'p1_3':'التطبيقات: المنسوجات، الأغذية، البتروكيماويات، البحرية',
+    'p2_0':'مطاحن الكرات ونباتات طحن المعادن', 'p2_1':'مجففات دوارة', 'p2_2':'مصنفات الهواء', 'p2_3':'صمامات تحويل وصمامات دوارة', 'p2_4':'صوامع تخزين', 'p2_5':'نباتات معالجة الراتنج والكيميائيات',
+    'p3_0':'مجففات هواء ساخن', 'p3_1':'مجففات إزالة الرطوبة', 'p3_2':'أنظمة الجرعات الجرافيمترية والحجمية', 'p3_3':'أنظمة تحميل القادوس والنقل', 'p3_4':'أجهزة التحكم في درجة حرارة القالب', 'p3_5':'مبردات مياه المعالجة',
+    'p4_0':'أبراج تبريد تبخيرية (دائرة مفتوحة ومغلقة)', 'p4_1':'مبردات هواء', 'p4_2':'مكثفات تبخيرية', 'p4_3':'أنظمة معالجة المياه المرتبطة', 'p4_4':'حلول تبريد مخصصة للصناعات المختلفة',
+    'p5_0':'مبردات مبردة بالهواء (أنواع اللولب والحلزوني)', 'p5_1':'مبردات مبردة بالماء', 'p5_2':'مبردات تربوكور (سلسلة TurboPOWER)', 'p5_3':'مبردات المضخات الحرارية', 'p5_4':'أنظمة HVAC المركزية للمنشآت',
+    'testimonials.tag': 'مراجع العملاء', 'testimonials.title': 'ثقة قادة<br><em>الصناعة</em>',
+    'contact.tag': 'اتصل بنا', 'contact.title': 'دعونا نعمل<br><em>معاً</em>', 'contact.address': 'العنوان', 'contact.phone': 'الهاتف', 'contact.email': 'البريد الإلكتروني',
+    'footer.desc': 'حلول هندسية لأنظمة الضغط الصناعي، التكييف، التبريد، وأنظمة المعالجة. تمثيل شركاء تكنولوجيا عالميين.',
+    'footer.company': 'الشركة', 'footer.partners': 'الشركاء', 'footer.products': 'المنتجات', 'footer.about': 'عن الشركة', 'footer.services': 'الخدمات', 'footer.team': 'فريقنا', 'footer.testimonials': 'المراجع', 'footer.contact': 'اتصل بنا',
+    'footer.compressors': 'الضواغط', 'footer.blowers': 'المنافيخ التوربينية', 'footer.hvac': 'التكييف والتهوية', 'footer.cooling': 'أنظمة التبريد', 'footer.drying': 'أنظمة التجفيف', 'footer.chemical': 'المعالجة الكيميائية',
+    'footer.rights': 'جميع الحقوق محفوظة. | Hatim Elabdullah', 'footer.privacy': 'سياسة الخصوصية', 'footer.terms': 'شروط الاستخدام', 'footer.sitemap': 'خريطة الموقع',
+      "modal.join_title": "قدم طلبًا لوظيفة",
+"modal.full_name": "الاسم الكامل",
+"modal.email": "عنوان البريد الإلكتروني",
+"modal.phone": "رقم الهاتف",
+"modal.upload_cv": "تحميل السيرة الذاتية (PDF)",
+"modal.submit": "إرسال الطلب",
+"modal.request_title": "إرسال طلب",
+"modal.company_name": "اسم الشركة",
+"modal.select_partner": "اختر الشريك / المنتج",
+"modal.notes": "ملاحظات إضافية",
+"modal.send_request": "إرسال الطلب"},
+  tr: {
+    'nav.home':'Ana Sayfa','nav.about':'Hakkımızda','nav.partners':'Ortaklarımız','nav.services':'Hizmetler','nav.team':'Ekip','nav.testimonials':'Referanslar','nav.contact':'İletişim','nav.cta':'Teklif İste','nav-cta.catalog-btn':'Katalog','nav-cta.career-btn':'Bize Katıl',
+    'slide.partner':'Öne Çıkan Ortak','slide.explore':'Ürünleri Keşfet',
+    'slide0.title':'Endüstriyel<br><em>Kompresörler</em>', 'slide0.desc':'Turbo Kompresörler (Yağsız, Santrifüj) | Enerji Tasarruflu Turbo Sistemler | Isı Geri Kazanım Çözümleri.',
+    'slide1.title':'Turbo<br><em>Teknolojisi</em>', 'slide1.desc':'Turbo Kompresörler (Hava Yataklı, Çok Kademeli) | Turbo Blowerlar (WL & WH Serisi) | Yüksek Verimli Sistemler.',
+    'slide2.title':'Endüstriyel<br><em>İşleme Ekipmanları</em>', 'slide2.desc':'Bilyalı Değirmenler ve Maden Öğütme Tesisleri | Döner Kurutucular | Hava Sınıflandırıcılar | Yönlendirme Valfleri.',
+    'slide3.title':'Endüstriyel<br><em>Kurutma Sistemleri</em>', 'slide3.desc':'Sıcak Hava Kurutucuları | Nem Alma Kurutucuları | Gravimetrik Dozajlama Sistemleri | Yükleyici Sistemler.',
+    'slide4.title':'Endüstriyel<br><em>Soğutma Çözümleri</em>', 'slide4.desc':'Evaporatif Soğutma Kuleleri | Hava Soğutucular | Evaporatif Kondenserler | Su Arıtma.',
+    'slide5.title':'HVAC &<br><em>Chillerlar</em>', 'slide5.desc':'Hava Soğutmalı Chillerlar | Su Soğutmalı Chillerlar | Turbocor Chillerlar | Isı Pompası Chillerlar.',
+    'about.tag': 'İlteksan Hakkında', 
+    'about.title': 'Geleceğin Sanayisini<br><em>Şekillendiriyoruz</em>',
+    'about.p1': 'İlteksan Mühendislik; endüstriyel kompresör, HVAC, soğutma ve proses sistemleri konularında uzmanlaşmış, lider bir mühendislik ve teknik çözüm şirketidir. Türkiye ve bölge genelinde dünyanın en güvenilir üreticilerini temsil ediyoruz.',
+    'about.p2': 'İlk danışmanlık ve ekipman tedariğinden, devreye alma ve uzun vadeli satış sonrası desteğe kadar, uzman mühendis ekibimiz her sistemin operasyonel ömrü boyunca en yüksek verimlilikte çalışmasını sağlar.',
+    'about.p3': 'Üretim, enerji, su arıtma ve ilaç sektörlerindeki derin uzmanlığımızla, operasyonel mükemmelliği ve ölçülebilir sonuçları teşvik eden entegre çözümler sunuyoruz.',
+    'stat.years':'Yıl Deneyim','stat.projects':'Tamamlanan Proje','stat.partners':'Global Ortak','stat.satisfaction':'Müşteri Memnuniyeti',
+    'partners.tag': 'Ortaklarımız', 'partners.title': 'Dünya Standartlarında<br><em>Teknoloji Ortakları</em>',
+    'services.tag': 'Hizmetlerimiz', 'services.title': 'Tam Kapsamlı<br><em>Mühendislik Hizmetleri</em>',
+    'svc1.title':'Ekipman Tedariği', 'svc1.desc':'Sertifikalı global ortaklardan endüstriyel kompresörler, blowerlar, soğutma sistemleri, HVAC ve kurutma ekipmanlarının doğrudan tedariği.',
+    'svc2.title':'Devreye Alma', 'svc2.desc':'Her sistemin spesifikasyonlara göre yapılandırılmasını sağlayan, sertifikalı mühendisler tarafından uzman yerinde kurulum ve devreye alma.',
+    'svc3.title':'Satış Sonrası Destek', 'svc3.desc':'Operasyonel aksama süresini en aza indirmek için kapsamlı bakım, orijinal yedek parça temini ve hızlı teknik destek.',
+    'svc4.title':'Sistem Tasarımı', 'svc4.desc':'Tesisinize özel basınçlı hava, HVAC, soğutma ve endüstriyel kurutma süreçleri için eksiksiz mühendislik tasarımı.',
+    'svc5.title':'Teknik Danışmanlık', 'svc5.desc':'Enerji verimliliği denetimleri, kapasite optimizasyonu ve süreciniz için doğru teknolojiyi seçme konusunda uzman rehberliği.',
+    'svc6.title':'Enerji Optimizasyonu', 'svc6.desc':'Enerji tüketimini azaltmak, ekipman ömrünü uzatmak ve sürdürülebilir hedeflere ulaşmak için akıllı izleme çözümleri.',
+    'team.tag': 'Ekibimiz', 'team.title': 'İlteksan\'ın Arkasındaki<br><em>Uzmanlar</em>',
+    'tm1.role': 'Kurucu', 'tm1.desc': 'Yüksek Makine Mühendisi. İlteksan Mühendislik Müdürü.',
+    'tm2.role': 'Kurucu ve Finans Direktörü', 'tm2.desc': 'Finans Uzmanı. İlteksan Mühendislik Müdürü.',
+    'tm3.role': 'Kurucu ve İlteksan Makina Müdürü', 'tm3.desc': 'Makine Mühendisi ve İlteksan Makina Müdürü (Bursa).',
+    'tm4.role': 'Kurucu ve Servis Direktörü', 'tm4.desc': 'Teknik Servis Direktörü. İlteksan Makina Müdürü (Bursa).',
+    'tm5.role': 'Servis Müdürü', 'tm5.desc': 'Teknik Servis Müdürü. Tüm satış sonrası destek ve teknik operasyonları yönetir.',
+    'tm6.role': 'Satış Mühendisi', 'tm6.desc': 'Yerel ve uluslararası pazarlarda satış, iş geliştirme ve pazarlama mühendisi.',
+    'tm7.role': 'Servis Mühendisi', 'tm7.desc': 'Satış sonrası destek ve bakım sağlar. Sistemlerin verimli çalışmasını sağlar.',
+    'tm8.role': 'Muhasebe Müdürü', 'tm8.desc': 'Muhasebe operasyonlarını ve finansal raporlamayı yönetir. Finansal kayıtların uyumluluğunu ve doğruluğunu sağlar.',
+    'sector0':'Endüstriyel Kompresörler','sector1':'Turbo Teknolojisi','sector2':'Endüstriyel İşleme Ekipmanları','sector3':'Endüstriyel Kurutma Sistemleri','sector4':'Endüstriyel Soğutma Çözümleri','sector5':'HVAC ve Chillerlar',
+    'p0_0':'Turbo Kompresörler (Yağsız, Santrifüj)', 'p0_1':'Enerji Tasarruflu Turbo Sistemler', 'p0_2':'Isı Geri Kazanım Çözümleri', 'p0_3':'Kontrol ve İzleme Sistemleri (RMS PLC)',
+    'p1_0':'Turbo Kompresörler (Hava Yataklı, Çok Kademeli)', 'p1_1':'Turbo Blowerlar (WL & WH Serisi)', 'p1_2':'Yüksek Verimli Enerji Tasarruf Sistemleri', 'p1_3':'Uygulamalar: Tekstil, Gıda, Petrokimya, Denizcilik',
+    'p2_0':'Bilyalı Değirmenler ve Maden Öğütme Tesisleri', 'p2_1':'Döner Kurutucular', 'p2_2':'Hava Sınıflandırıcılar', 'p2_3':'Yönlendirme Valfleri ve Döner Valfler', 'p2_4':'Depolama Siloları', 'p2_5':'Reçine ve Kimyasal İşleme Tesisleri',
+    'p3_0':'Sıcak Hava Kurutucuları', 'p3_1':'Nem Alma Kurutucuları', 'p3_2':'Gravimetrik ve Volumetrik Dozajlama', 'p3_3':'Yükleyici ve Taşıma Sistemleri', 'p3_4':'Kalıp Şartlandırıcılar', 'p3_5':'Proses Soğutma Cihazları',
+    'p4_0':'Evaporatif Soğutma Kuleleri (Açık ve Kapalı)', 'p4_1':'Hava Soğutucular', 'p4_2':'Evaporatif Kondenserler', 'p4_3':'Su Arıtma Sistemleri', 'p4_4':'Endüstriyel Özel Soğutma Çözümleri',
+    'p5_0':'Hava Soğutmalı Chillerlar (Scroll & Screw)', 'p5_1':'Su Soğutmalı Chillerlar', 'p5_2':'Turbocor Chillerlar (TurboPOWER)', 'p5_3':'Isı Pompası Chillerlar', 'p5_4':'Merkezi HVAC Sistemleri',
+    'testimonials.tag': 'Müşteri Referansları', 'testimonials.title': 'Sektör Liderlerinin<br><em>Güveni</em>',
+    'contact.tag': 'İletişime Geçin', 'contact.title': 'Birlikte<br><em>Çalışalım</em>', 'contact.address': 'Adres', 'contact.phone': 'Telefon', 'contact.email': 'E-posta',
+    'footer.desc': 'Endüstriyel kompresör, HVAC, soğutma ve proses sistemleri için mühendislik çözümleri. Dünya standartlarında teknoloji ortaklarının temsilciliği.',
+    'footer.company': 'Kurumsal', 'footer.partners': 'Ortaklarımız', 'footer.products': 'Ürünler', 'footer.about': 'Hakkımızda', 'footer.services': 'Hizmetler', 'footer.team': 'Ekibimiz', 'footer.testimonials': 'Referanslar', 'footer.contact': 'İletişim',
+    'footer.compressors': 'Kompresörler', 'footer.blowers': 'Turbo Blowerlar', 'footer.hvac': 'HVAC / AHU', 'footer.cooling': 'Soğutma Sistemleri', 'footer.drying': 'Kurutma Sistemleri', 'footer.chemical': 'Kimyasal Proses',
+    'footer.rights': 'Tüm hakları saklıdır. | Hatim Elabdullah', 'footer.privacy': 'Gizlilik Politikası', 'footer.terms': 'Kullanım Şartları', 'footer.sitemap': 'Site Haritası',
+      "modal.join_title": "Pozisyona Başvur",
+"modal.full_name": "Ad Soyad",
+"modal.email": "E-posta Adresi",
+"modal.phone": "Telefon Numarası","modal.upload_cv": "CV Yükle (PDF)",
+"modal.submit": "Başvuruyu Gönder",
+"modal.request_title": "Talep Gönder",
+"modal.company_name": "Şirket Adı",
+"modal.select_partner": "Ortak / Ürün Seçin","modal.notes": "Ek Notlar",
+"modal.send_request": "Talebi Gönder"
+  },
+  fr: {
+    'nav.home':'Accueil','nav.about':'À Propos','nav.partners':'Partenaires','nav.services':'Services','nav.team':'Équipe','nav.testimonials':'Références','nav.contact':'Contact','nav.cta':'Demander un devis','nav-cta.catalog-btn':'Catalogue','nav-cta.career-btn':'Rejoignez-nous',  
+    'slide.partner':'Partenaire en vedette','slide.explore':'Explorer les produits',
+    'slide0.title':'Compresseurs<br><em>Industriels</em>', 'slide0.desc':'Compresseurs turbo (sans huile, centrifuges) | Systèmes turbo à économie d’énergie | Solutions de récupération de chaleur.',
+    'slide1.title':'Technologie<br><em>Turbo</em>', 'slide1.desc':'Compresseurs turbo (à paliers à air, multi-étages) | Soufflantes turbo (séries WL & WH) | Systèmes à haute efficacité.',
+    'slide2.title':'Équipements de<br><em>Traitement Industriel</em>', 'slide2.desc':'Broyeurs à boulets et unités de broyage | Sécheurs rotatifs | Classificateurs d’air | Vannes de dérivation.',
+    'slide3.title':'Systèmes de<br><em>Séchage Industriel</em>', 'slide3.desc':'Sécheurs à air chaud | Sécheurs déshumidificateurs | Systèmes de dosage gravimétrique | Chargeurs de trémie.',
+    'slide4.title':'Solutions de<br><em>Refroidissement Industriel</em>', 'slide4.desc':'Tours de refroidissement évaporatives | Refroidisseurs d’air | Condenseurs évaporatifs | Traitement de l’eau.',
+    'slide5.title':'CVC &<br><em>Groupes Froids</em>', 'slide5.desc':'Groupes froids à air | Groupes froids à eau | Turbocor | Pompes à chaleur.',
+    'about.tag':'À propos d\'İlteksan', 'about.title':'Façonner l’avenir de<br><em>l’industrie avancée</em>',
+    'about.p1':'İlteksan Mühendislik est une société d’ingénierie et de solutions techniques de premier plan, spécialisée dans la compression industrielle, le CVC, le refroidissement et les systèmes de process. Nous représentons les fabricants les plus fiables au monde en Turquie et dans la région.',
+    'about.p2':'De la consultation initiale et la fourniture d’équipements à la mise en service et au support après-vente à long terme, notre équipe d’ingénieurs experts garantit que chaque système fonctionne à son efficacité maximale tout au long de sa vie opérationnelle.',
+    'about.p3':'Grâce à notre expertise approfondie dans les secteurs de la fabrication, de l’énergie, du traitement de l’eau et de la pharmacie, nous fournissons des solutions intégrées qui favorisent l’excellence opérationnelle et des résultats mesurables.',
+    'stat.years':'Années d’expérience','stat.projects':'Projets réalisés','stat.partners':'Partenaires mondiaux','stat.satisfaction':'Satisfaction client',
+    'partners.tag':'Nos Partenaires','partners.title':'Partenaires<br><em>Technologiques Mondiaux</em>',
+    'services.tag':'Nos Services','services.title':'Services<br><em>d’Ingénierie Complets</em>',
+    'svc1.title':'Fourniture d’équipements', 'svc1.desc':'Fourniture directe de compresseurs industriels, soufflantes, systèmes de refroidissement, CVC et équipements de séchage auprès de partenaires mondiaux certifiés.',
+    'svc2.title':'Mise en service', 'svc2.desc':'Installation et mise en service expertes sur site par des ingénieurs certifiés, garantissant que chaque système est configuré selon les spécifications.',
+    'svc3.title':'Support après-vente', 'svc3.desc':'Maintenance complète, fourniture de pièces de rechange d’origine et support technique rapide pour minimiser les temps d’arrêt opérationnels.',
+    'svc4.title':'Conception de systèmes', 'svc4.desc':'Conception technique complète pour l’air comprimé, le CVC, le refroidissement et les processus de séchage industriel adaptés à votre installation.',
+    'svc5.title':'Conseil technique', 'svc5.desc':'Audits d’efficacité énergétique, optimisation de la capacité et conseils d’experts sur le choix de la technologie adaptée à votre processus.',
+    'svc6.title':'Optimisation énergétique', 'svc6.desc':'Solutions de surveillance intelligente pour réduire la consommation d’énergie, prolonger la durée de vie des équipements et atteindre des objectifs durables.',
+    'team.tag':'Notre Équipe', 'team.title':'Les Experts<br><em>derrière İlteksan</em>',
+    'tm1.role': 'Fondateur', 'tm1.desc': 'Ingénieur mécanicien senior. Directeur d’İlteksan Mühendislik.',
+    'tm2.role': 'Fondateur et Directeur Financier', 'tm2.desc': 'Expert en finance. Directeur d’İlteksan Mühendislik (Siège de Gaziantep).',
+    'tm3.role': 'Fondateur et Directeur d’İlteksan Makina', 'tm3.desc': 'Ingénieur mécanicien et responsable de succursale (Bursa). Directeur d’İlteksan Makina.',
+    'tm4.role': 'Fondateur et Directeur des Services', 'tm4.desc': 'Directeur du service technique. Supervise tout le support après-vente et les opérations techniques.',
+    'tm5.role': 'Responsable des Services', 'tm5.desc': 'Responsable du service technique. Supervise tout le support après-vente et les opérations techniques.',
+    'tm6.role': 'Ingénieur Commercial', 'tm6.desc': 'Ingénieur en vente, développement commercial et marketing sur les marchés locaux et internationaux.',
+    'tm7.role': 'Ingénieur de Service', 'tm7.desc': 'Fournit un support après-vente et une maintenance. Assure le fonctionnement efficace des systèmes.',
+    'tm8.role': 'Directeur de la Comptabilité', 'tm8.desc': 'Gère les opérations comptables et les rapports financiers. Assure la conformité et l’exactitude des dossiers financiers.',
+    'sector0':'Compresseurs industriels','sector1':'Technologie turbo','sector2':'Équipements de process','sector3':'Systèmes de séchage','sector4':'Solutions de refroidissement','sector5':'CVC & Chillers',
+    'p0_0':'Compresseurs turbo (sans huile, centrifuges)', 'p0_1':'Systèmes turbo à économie d’énergie', 'p0_2':'Solutions de récupération de chaleur', 'p0_3':'Systèmes de contrôle et de surveillance (RMS PLC)',
+    'p1_0':'Compresseurs turbo (à paliers à air, multi-étages)', 'p1_1':'Soufflantes turbo (séries WL & WH)', 'p1_2':'Systèmes d’économie d’énergie à haute efficacité', 'p1_3':'Applications : Textile, Alimentaire, Pétrochimie, Marine',
+    'p2_0':'Broyeurs à boulets et unités de broyage', 'p2_1':'Sécheurs rotatifs', 'p2_2':'Classificateurs d’air', 'p2_3':'Vannes de dérivation et vannes rotatives', 'p2_4':'Silos de stockage', 'p2_5':'Unités de traitement des résines et des produits chimiques',
+    'p3_0':'Sécheurs à air chaud', 'p3_1':'Sécheurs déshumidificateurs', 'p3_2':'Systèmes de dosage gravimétrique et volumétrique', 'p3_3':'Systèmes de chargement de trémie et de transport', 'p3_4':'Régulateurs de température de moule', 'p3_5':'Refroidisseurs d’eau de process',
+    'p4_0':'Tours de refroidissement évaporatives (circuit ouvert et fermé)', 'p4_1':'Refroidisseurs d’air', 'p4_2':'Condenseurs évaporatifs', 'p4_3':'Systèmes de traitement de l’eau associés', 'p4_4':'Solutions de refroidissement personnalisées pour les industries',
+    'p5_0':'Refroidisseurs à air (Scroll & Vis)', 'p5_1':'Refroidisseurs à eau', 'p5_2':'Refroidisseurs Turbocor (série TurboPOWER)', 'p5_3':'Refroidisseurs à pompe à chaleur', 'p5_4':'Systèmes CVC centraux pour installations',
+    'testimonials.tag':'Références clients','testimonials.title':'La confiance des<br><em>leaders de l’industrie</em>',
+    'contact.tag':'Contact','contact.title':'Travaillons<br><em>ensemble</em>', 'contact.address':'Adresse','contact.phone':'Téléphone','contact.email':'Email',
+    'footer.desc':'Solutions d’ingénierie pour la compression industrielle, le CVC, le refroidissement et les systèmes de process. Représentant des partenaires technologiques de classe mondiale.',
+    'footer.company':'Entreprise','footer.partners':'Partenaires','footer.products':'Produits','footer.about':'À propos','footer.services':'Services','footer.team':'Équipe','footer.testimonials':'Références','footer.contact':'Contact',
+    'footer.compressors':'Compresseurs','footer.blowers':'Soufflantes turbo','footer.hvac':'CVC / AHU','footer.cooling':'Systèmes de refroidissement','footer.drying':'Systèmes de séchage','footer.chemical':'Processus chimiques',
+    'footer.rights':'Tous droits réservés. | Hatim Elabdullah','footer.privacy':'Politique de confidentialité','footer.terms':'Conditions d’utilisation','footer.sitemap':'Plan du site',
+      "modal.join_title": "Postulez pour un poste",
+"modal.full_name": "Nom complet",
+"modal.email": "Adresse e-mail","modal.phone": "Numéro de téléphone",
+"modal.upload_cv": "Télécharger CV (PDF)",
+"modal.submit": "Envoyer la candidature",
+"modal.request_title": "Envoyer une demande",
+"modal.company_name": "Nom de l'entreprise","modal.select_partner": "Sélectionnez un partenaire / produit",
+"modal.notes": "Notes supplémentaires",
+"modal.send_request": "Envoyer la demande"},
+  es: {
+    'nav.home':'Inicio','nav.about':'Nosotros','nav.partners':'Socios','nav.services':'Servicios','nav.team':'Equipo','nav.testimonials':'Referencias','nav.contact':'Contacto','nav.cta':'Solicitar Cotización','nav-cta.catalog-btn':'Catálogo','nav-cta.career-btn':'Únete a Nosotros',
+    'slide.partner':'Socio Destacado','slide.explore':'Explorar Productos',
+    'slide0.title':'Compresores<br><em>Industriales</em>', 'slide0.desc':'Compresores turbo (sin aceite, centrífugos) | Sistemas turbo de ahorro energético | Soluciones de recuperación de calor.',
+    'slide1.title':'Tecnología<br><em>Turbo</em>', 'slide1.desc':'Compresores turbo (rodamientos de aire, multi-etapa) | Sopladores turbo (series WL & WH) | Sistemas de alta eficiencia.',
+    'slide2.title':'Equipos de<br><em>Procesamiento Industrial</em>', 'slide2.desc':'Molinos de bolas y plantas de molienda mineral | Secadores rotativos | Clasificadores de aire | Válvulas desviadoras.',
+    'slide3.title':'Sistemas de<br><em>Secado Industrial</em>', 'slide3.desc':'Secadores de aire caliente | Secadores deshumidificadores | Sistemas de dosificación gravimétrica | Cargadores de tolva.',
+    'slide4.title':'Soluciones de<br><em>Enfriamiento Industrial</em>', 'slide4.desc':'Torres de enfriamiento evaporativo | Enfriadores de aire | Condensadores evaporativos | Tratamiento de agua.',
+    'slide5.title':'HVAC &<br><em>Chillers</em>', 'slide5.desc':'Chillers enfriados por aire | Chillers enfriados por agua | Chillers Turbocor | Bombas de calor.',
+    'about.tag':'Sobre İlteksan', 'about.title':'Construyendo el futuro de la<br><em>industria avanzada</em>',
+    'about.p1':'İlteksan Mühendislik es una empresa líder en ingeniería y soluciones técnicas especializada en compresión industrial, HVAC, refrigeración y sistemas de proceso. Representamos a los fabricantes más confiables del mundo en Turquía y la región.',
+    'about.p2':'Desde la consultoría inicial y el suministro de equipos hasta la puesta en marcha y el soporte postventa a largo plazo, nuestro equipo de ingenieros expertos garantiza que cada sistema funcione a su máximo rendimiento durante toda su vida operativa.',
+    'about.p3':'Con una profunda experiencia en los sectores de fabricación, energía, tratamiento de agua y farmacéutico, ofrecemos soluciones integradas que impulsan la excelencia operativa y resultados medibles.',
+    'stat.years':'Años de experiencia','stat.projects':'Proyectos completados','stat.partners':'Socios globales','stat.satisfaction':'Satisfacción del cliente',
+    'partners.tag':'Nuestros Socios','partners.title':'Socios Tecnológicos<br><em>de Clase Mundial</em>',
+    'services.tag':'Nuestros Servicios','services.title':'Servicios<br><em>Integrales de Ingeniería</em>',
+    'svc1.title':'Suministro de Equipos', 'svc1.desc':'Suministro directo de compresores industriales, sopladores, sistemas de enfriamiento, HVAC y equipos de secado de socios globales certificados.',
+    'svc2.title':'Puesta en marcha', 'svc2.desc':'Instalación y puesta en marcha experta en el sitio por ingenieros certificados, asegurando que cada sistema se configure según las especificaciones.',
+    'svc3.title':'Soporte Postventa', 'svc3.desc':'Mantenimiento integral, suministro de repuestos originales y soporte técnico rápido para minimizar el tiempo de inactividad operativa.',
+    'svc4.title':'Diseño de Sistemas', 'svc4.desc':'Diseño de ingeniería completo para aire comprimido, HVAC, refrigeración y procesos de secado industrial adaptados a su instalación.',
+    'svc5.title':'Consultoría Técnica', 'svc5.desc':'Auditorías de eficiencia energética, optimización de capacidad y orientación experta sobre la selección de la tecnología adecuada para su proceso.',
+    'svc6.title':'Optimización Energética', 'svc6.desc':'Soluciones de monitoreo inteligente para reducir el consumo de energía, extender la vida útil del equipo y lograr objetivos sostenibles.',
+    'team.tag':'Nuestro Equipo', 'team.title':'Los Expertos<br><em>detrás de İlteksan</em>',
+    'tm1.role': 'Fundador', 'tm1.desc': 'Ingeniero Mecánico Senior. Director de İlteksan Mühendislik.',
+    'tm2.role': 'Fundador y Director Financiero', 'tm2.desc': 'Experto en Finanzas. Director de İlteksan Mühendislik (Sede Central de Gaziantep).',
+    'tm3.role': 'Fundador y Director de İlteksan Makina', 'tm3.desc': 'Ingeniero Mecánico y Gerente de Sucursal (Bursa). Director de İlteksan Makina.',
+    'tm4.role': 'Fundador y Director de Servicios', 'tm4.desc': 'Director del Servicio Técnico. Supervisa todo el soporte postventa y las operaciones técnicas.',
+    'tm5.role': 'Gerente de Servicios', 'tm5.desc': 'Gerente del Servicio Técnico. Supervisa todo el soporte postventa y las operaciones técnicas.',
+    'tm6.role': 'Ingeniero de Ventas', 'tm6.desc': 'Ingeniero de ventas, desarrollo de negocios y marketing en mercados locales e internacionales.',
+    'tm7.role': 'Ingeniero de Servicio', 'tm7.desc': 'Proporciona soporte postventa y mantenimiento. Asegura el funcionamiento eficiente de los sistemas.',
+    'tm8.role': 'Director de Contabilidad', 'tm8.desc': 'Gestiona las operaciones contables y los informes financieros. Asegura la conformidad y precisión de los registros financieros.',
+    'sector0':'Compresores industriales','sector1':'Tecnología turbo','sector2':'Equipos de procesamiento','sector3':'Sistemas de secado','sector4':'Soluciones de enfriamiento','sector5':'HVAC y Chillers',
+    'p0_0':'Compresores turbo (sin aceite, centrífugos)', 'p0_1':'Sistemas turbo de ahorro energético', 'p0_2':'Soluciones de recuperación de calor', 'p0_3':'Sistemas de control y monitoreo (RMS PLC)',
+    'p1_0':'Compresores turbo (rodamientos de aire, multi-etapa)', 'p1_1':'Sopladores turbo (series WL & WH)', 'p1_2':'Sistemas de ahorro de energía de alta eficiencia', 'p1_3':'Aplicaciones: Textil, Alimentaria, Petroquímica, Marina',
+    'p2_0':'Molinos de bolas y plantas de molienda mineral', 'p2_1':'Secadores rotativos', 'p2_2':'Clasificadores de aire', 'p2_3':'Válvulas desviadoras y válvulas rotativas', 'p2_4':'Silos de almacenamiento', 'p2_5':'Plantas de procesamiento de resinas y químicos',
+    'p3_0':'Secadores de aire caliente', 'p3_1':'Secadores deshumidificadores', 'p3_2':'Sistemas de dosificación gravimétrica y volumétrica', 'p3_3':'Sistemas de carga de tolva y transporte', 'p3_4':'Controladores de temperatura de moldes', 'p3_5':'Enfriadores de agua de proceso',
+    'p4_0':'Torres de enfriamiento evaporativo (circuito abierto y cerrado)', 'p4_1':'Enfriadores de aire', 'p4_2':'Condensadores evaporativos', 'p4_3':'Sistemas de tratamiento de agua vinculados', 'p4_4':'Soluciones de enfriamiento personalizadas para industrias',
+    'p5_0':'Chillers enfriados por aire (Scroll y Tornillo)', 'p5_1':'Chillers enfriados por agua', 'p5_2':'Chillers Turbocor (serie TurboPOWER)', 'p5_3':'Chillers de bomba de calor', 'p5_4':'Sistemas HVAC centrales para instalaciones',
+    'testimonials.tag':'Referencias de clientes','testimonials.title':'La confianza de los<br><em>líderes de la industria</em>',
+    'contact.tag':'Contacto','contact.title':'Trabajemos<br><em>juntos</em>', 'contact.address':'Dirección','contact.phone':'Teléfono','contact.email':'Correo electrónico',
+    'footer.desc':'Soluciones de ingeniería para compresión industrial, HVAC, refrigeración y sistemas de proceso. Representando a socios tecnológicos de clase mundial.',
+    'footer.company':'Empresa','footer.partners':'Socios','footer.products':'Productos','footer.about':'Nosotros','footer.services':'Servicios','footer.team':'Equipo','footer.testimonials':'Referencias','footer.contact':'Contacto',
+    'footer.compressors':'Compresores','footer.blowers':'Sopladores turbo','footer.hvac':'HVAC / AHU','footer.cooling':'Sistemas de enfriamiento','footer.drying':'Sistemas de secado','footer.chemical':'Procesos químicos',
+    'footer.rights':'Todos los derechos reservados. | Hatim Elabdullah','footer.privacy':'Política de privacidad','footer.terms':'Términos de uso','footer.sitemap':'Mapa del sitio',
+      "modal.join_title": "Postularse para un puesto",
+"modal.full_name": "Nombre completo",
+"modal.email": "Dirección de correo electrónico","modal.phone": "Número de teléfono","modal.upload_cv": "Subir CV (PDF)"},
+  it: {
+    'nav.home':'Home','nav.about':'Chi Siamo','nav.partners':'Partner','nav.services':'Servizi','nav.team':'Team','nav.testimonials':'Referenze','nav.contact':'Contatti','nav.cta':'Richiedi Preventivo','nav-cta.catalog-btn':'Catalogo','nav-cta.career-btn':'Lavora con Noi',
+    'slide.partner':'Partner in primo piano','slide.explore':'Esplora i Prodotti',
+    'slide0.title':'Compressori<br><em>Industriali</em>', 'slide0.desc':'Turbo compressori (Oil-Free, Centrifughi) | Sistemi turbo a risparmio energetico | Soluzioni di recupero calore.',
+    'slide1.title':'Tecnologia<br><em>Turbo</em>', 'slide1.desc':'Turbo compressori (cuscinetti ad aria, multistadio) | Turbo soffiatori (serie WL & WH) | Sistemi ad alta efficienza.',
+    'slide2.title':'Attrezzature di<br><em>Processo Industriale</em>', 'slide2.desc':'Mulini a sfere e impianti di macinazione minerali | Essiccatori rotativi | Classificatori d’aria | Valvole deviatrici.',
+    'slide3.title':'Sistemi di<br><em>Essiccazione Industriale</em>', 'slide3.desc':'Essiccatori ad aria calda | Essiccatori deumidificatori | Sistemi di dosaggio gravimetrico | Caricatori a tramoggia.',
+    'slide4.title':'Soluzioni di<br><em>Raffreddamento Industriale</em>', 'slide4.desc':'Torri di raffreddamento evaporative | Raffreddatori d’aria | Condensatori evaporativi | Trattamento dell’acqua.',
+    'slide5.title':'HVAC &<br><em>Refrigeratori</em>', 'slide5.desc':'Chiller condensati ad aria | Chiller condensati ad acqua | Chiller Turbocor | Pompe di calore.',
+    'about.tag':'Su İlteksan', 'about.title':'Plasmare il futuro della<br><em>industria avanzata</em>',
+    'about.p1':'İlteksan Mühendislik è un’azienda leader nell’ingegneria e nelle soluzioni tecniche specializzata nella compressione industriale, HVAC, raffreddamento e sistemi di processo. Rappresentiamo i produttori più affidabili al mondo in Turchia e nella regione.',
+    'about.p2':'Dalla consulenza iniziale e fornitura di attrezzature fino alla messa in servizio e al supporto post-vendita a lungo termine, il nostro team di ingegneri esperti garantisce che ogni sistema funzioni alla massima efficienza durante tutta la sua vita operativa.',
+    'about.p3':'Con una profonda esperienza nei settori manifatturiero, energetico, del trattamento acque e farmaceutico, forniamo soluzioni integrate che guidano l’eccellenza operativa e risultati misurabili.',
+    'stat.years':'Anni di esperienza','stat.projects':'Progetti completati','stat.partners':'Partner globali','stat.satisfaction':'Soddisfazione cliente',
+    'partners.tag':'I Nostri Partner','partners.title':'Partner Tecnologici<br><em>di Classe Mondiale</em>',
+    'services.tag':'I Nostri Servizi','services.title':'Servizi di<br><em>Ingegneria Completi</em>',
+    'svc1.title':'Fornitura Attrezzature', 'svc1.desc':'Fornitura diretta di compressori industriali, soffiatori, sistemi di raffreddamento, HVAC e attrezzature per l’essiccazione da partner globali certificati.',
+    'svc2.title':'Messa in servizio', 'svc2.desc':'Installazione e messa in servizio esperta in loco da parte di ingegneri certificati, garantendo che ogni sistema sia configurato secondo le specifiche.',
+    'svc3.title':'Supporto Post-Vendita', 'svc3.desc':'Manutenzione completa, fornitura di ricambi originali e supporto tecnico rapido per ridurre al minimo i tempi di fermo operativo.',
+    'svc4.title':'Progettazione Sistemi', 'svc4.desc':'Progettazione ingegneristica completa per aria compressa, HVAC, raffreddamento e processi di essiccazione industriale su misura per il vostro impianto.',
+    'svc5.title':'Consulenza Tecnica', 'svc5.desc':'Audit di efficienza energetica, ottimizzazione della capacità e guida esperta sulla scelta della tecnologia giusta per il vostro processo.',
+    'svc6.title':'Ottimizzazione Energetica', 'svc6.desc':'Soluzioni di monitoraggio intelligente per ridurre il consumo energetico, prolungare la vita delle apparecchiature e raggiungere obiettivi sostenibili.',
+    'team.tag':'Il Nostro Team', 'team.title':'Gli Esperti<br><em>dietro İlteksan</em>',
+    'tm1.role': 'Fondatore', 'tm1.desc': 'Ingegnere Meccanico Senior. Direttore di İlteksan Mühendislik.',
+    'tm2.role': 'Fondatore e Direttore Finanziario', 'tm2.desc': 'Esperto in Finanza. Direttore di İlteksan Mühendislik (Sede Centrale di Gaziantep).',
+    'tm3.role': 'Fondatore e Direttore di İlteksan Makina', 'tm3.desc': 'Ingegnere Meccanico e Branch Manager (Bursa). Direttore di İlteksan Makina.',
+    'tm4.role': 'Fondatore e Direttore Servizi', 'tm4.desc': 'Direttore del Servizio Tecnico. Supervisiona tutto il supporto post-vendita e le operazioni tecniche.',
+    'tm5.role': 'Manager Servizi', 'tm5.desc': 'Responsabile del Servizio Tecnico. Supervisiona tutte le operazioni di manutenzione e supporto.',
+    'tm6.role': 'Ingegnere Vendite', 'tm6.desc': 'Ingegnere addetto alle vendite, sviluppo del business e marketing nei mercati locali e internazionali.',
+    'tm7.role': 'Ingegnere di Servizio', 'tm7.desc': 'Fornisce supporto post-vendita e manutenzione. Assicura il funzionamento efficiente dei sistemi.',
+    'tm8.role': 'Direttore Contabilità', 'tm8.desc': 'Gestisce le operazioni contabili e i rapporti finanziari. Garantisce la conformità e l’accuratezza dei registri finanziari.',
+    'sector0':'Compressori industriali','sector1':'Tecnologia turbo','sector2':'Attrezzature di processo','sector3':'Sistemi di essiccazione','sector4':'Soluzioni di raffreddamento','sector5':'HVAC e Chiller',
+    'p0_0':'Turbo compressori (Oil-Free, Centrifughi)', 'p0_1':'Sistemi turbo a risparmio energetico', 'p0_2':'Soluzioni di recupero calore', 'p0_3':'Sistemi di controllo e monitoraggio (RMS PLC)',
+    'p1_0':'Turbo compressori (cuscinetti ad aria, multistadio)', 'p1_1':'Turbo soffiatori (serie WL & WH)', 'p1_2':'Sistemi di risparmio energetico ad alta efficienza', 'p1_3':'Applicazioni: Tessile, Alimentare, Petrolchimico, Navale',
+    'p2_0':'Mulini a sfere e impianti di macinazione minerali', 'p2_1':'Essiccatori rotativi', 'p2_2':'Classificatori d’aria', 'p2_3':'Valvole deviatrici e valvole rotative', 'p2_4':'Silo di stoccaggio', 'p2_5':'Impianti di lavorazione di resine e prodotti chimici',
+    'p3_0':'Essiccatori ad aria calda', 'p3_1':'Essiccatori deumidificatori', 'p3_2':'Sistemi di dosaggio gravimetrico e volumetrico', 'p3_3':'Caricatori a tramoggia e sistemi di trasporto', 'p3_4':'Termoregolatori per stampi', 'p3_5':'Refrigeratori d’acqua di processo',
+    'p4_0':'Torre di raffreddamento evaporativa (circuito aperto e chiuso)', 'p4_1':'Raffreddatori d’aria', 'p4_2':'Condensatori evaporativi', 'p4_3':'Sistemi di trattamento acqua collegati', 'p4_4':'Soluzioni di raffreddamento personalizzate per le industrie',
+    'p5_0':'Chiller condensati ad aria (Scroll & Vite)', 'p5_1':'Chiller condensati ad acqua', 'p5_2':'Chiller Turbocor (serie TurboPOWER)', 'p5_3':'Refrigeratori a pompa di calore', 'p5_4':'Sistemi HVAC centralizzati per impianti',
+    'testimonials.tag':'Referenze clienti','testimonials.title':'La fiducia dei<br><em>leader del settore</em>',
+    'contact.tag':'Contatti','contact.title':'Lavoriamo<br><em>insieme</em>', 'contact.address':'Indirizzo','contact.phone':'Telefono','contact.email':'Email',
+    'footer.desc':'Soluzioni ingegneristiche per compressione industriale, HVAC, raffreddamento e sistemi di processo. Partner tecnologici mondiali.',
+    'footer.company':'Azienda','footer.partners':'Partner','footer.products':'Prodotti','footer.about':'Chi Siamo','footer.services':'Servizi','footer.team':'Team','footer.testimonials':'Referenze','footer.contact':'Contatti',
+    'footer.compressors':'Compressori','footer.blowers':'Turbo soffiatori','footer.hvac':'HVAC / AHU','footer.cooling':'Sistemi di raffreddamento','footer.drying':'Sistemi di essiccazione','footer.chemical':'Processi chimici',
+    'footer.rights':'Tutti i diritti riservati. | Hatim Elabdullah','footer.privacy':'Privacy Policy','footer.terms':'Termini di Utilizzo','footer.sitemap':'Mappa del Sito',
+      "modal.join_title": "Candidati per una posizione",
+"modal.full_name": "Nome completo",
+"modal.email": "Indirizzo email","modal.phone": "Numero di telefono","modal.upload_cv": "Carica CV (PDF)",
+  },
+  pt: {
+    'nav.home':'Início','nav.about':'Sobre Nós','nav.partners':'Parceiros','nav.services':'Serviços','nav.team':'Equipe','nav.testimonials':'Referências','nav.contact':'Contato','nav.cta':'Solicitar Orçamento','nav-cta.catalog-btn':'Catálogo','nav-cta.career-btn':'Junte-se a Nós',
+    'slide.partner':'Parceiro em Destaque','slide.explore':'Explorar Produtos',
+    'slide0.title':'Compressores<br><em>Industriais</em>', 'slide0.desc':'Turbo Compressores (Isentos de Óleo, Centrifugos) | Sistemas Turbo de Economia de Energia | Soluções de Recuperação de Calor.',
+    'slide1.title':'Tecnologia<br><em>Turbo</em>', 'slide1.desc':'Turbo Compressores (Mancais a Ar, Multi-estágio) | Turbo Sopradores (Séries WL & WH) | Sistemas de Alta Eficiência.',
+    'slide2.title':'Equipamentos de<br><em>Processamento Industrial</em>', 'slide2.desc':'Moinhos de Bolas e Plantas de Moagem de Minerais | Secadores Rotativos | Classificadores de Ar | Válvulas Desviadoras.',
+    'slide3.title':'Sistemas de<br><em>Secagem Industrial</em>', 'slide3.desc':'Secadores de Ar Quente | Secadores Desumidificadores | Sistemas de Dosagem Gravimétrica | Carregadores de Tremonha.',
+    'slide4.title':'Soluções de<br><em>Resfriamento Industrial</em>', 'slide4.desc':'Torres de Resfriamento Evaporativo | Resfriadores de Ar | Condensadores Evaporativos | Tratamento de Água.',
+    'slide5.title':'HVAC &<br><em>Chillers</em>', 'slide5.desc':'Chillers Resfriados a Ar | Chillers Resfriados a Água | Chillers Turbocor | Bombas de Calor.',
+    'about.tag':'Sobre a İlteksan', 'about.title':'Moldando o futuro da<br><em>indústria avançada</em>',
+    'about.p1':'A İlteksan Mühendislik é uma empresa líder em engenharia e soluções técnicas especializada em compressão industrial, HVAC, refrigeração e sistemas de processo. Representamos os fabricantes mais confiáveis do mundo na Turquia e na região.',
+    'about.p2':'Desde a consultoria inicial e fornecimento de equipamentos até ao comissionamento e suporte pós-venda a longo prazo, a nossa equipa de engenheiros especialistas garante que cada sistema funcione com a máxima eficiência ao longo da sua vida operacional.',
+    'about.p3':'Com profunda experiência nos setores de fabricação, energia, tratamento de água e farmacêutico, entregamos soluções integradas que impulsionam a excelência operacional e resultados mensuráveis.',
+    'stat.years':'Anos de experiência','stat.projects':'Projetos concluídos','stat.partners':'Parceiros globais','stat.satisfaction':'Satisfação do cliente',
+    'partners.tag':'Nossos Parceiros','partners.title':'Parceiros Tecnológicos<br><em>de Classe Mundial</em>',
+    'services.tag':'Nossos Serviços','services.title':'Serviços de<br><em>Engenharia Completos</em>',
+    'svc1.title':'Fornecimento de Equipamentos', 'svc1.desc':'Fornecimento direto de compressores industriais, sopradores, sistemas de resfriamento, HVAC e equipamentos de secagem de parceiros globais certificados.',
+    'svc2.title':'Comissionamento', 'svc2.desc':'Instalação e comissionamento especializados no local por engenheiros certificados, garantindo que cada sistema seja configurado de acordo com as especificações.',
+    'svc3.title':'Suporte Pós-Venda', 'svc3.desc':'Manutenção abrangente, fornecimento de peças de reposição originais e suporte técnico rápido para minimizar o tempo de inatividade operacional.',
+    'svc4.title':'Design de Sistemas', 'svc4.desc':'Projeto de engenharia completo para ar comprimido, HVAC, resfriamento e processos de secagem industrial adaptados à sua instalação.',
+    'svc5.title':'Consultoria Técnica', 'svc5.desc':'Auditorias de eficiência energética, otimização de capacidade e orientação especializada na seleção da tecnologia certa para o seu processo.',
+    'svc6.title':'Otimização de Energia', 'svc6.desc':'Soluções de monitoramento inteligente para reduzir o consumo de energia, prolongar a vida útil dos equipamentos e atingir metas sustentáveis.',
+    'team.tag':'Nossa Equipe', 'team.title':'Os Especialistas<br><em>por trás da İlteksan</em>',
+    'tm1.role': 'Fundador', 'tm1.desc': 'Engenheiro Mecânico Sênior. Diretor da İlteksan Mühendislik.',
+    'tm2.role': 'Fundador e Diretor Financeiro', 'tm2.desc': 'Especialista em Finanças. Diretor da İlteksan Mühendislik (Sede de Gaziantep).',
+    'tm3.role': 'Fundador e Diretor da İlteksan Makina', 'tm3.desc': 'Engenheiro Mecânico e Gerente de Filial (Bursa). Diretor da İlteksan Makina.',
+    'tm4.role': 'Fundador e Diretor de Serviços', 'tm4.desc': 'Diretor do Serviço Técnico. Supervisiona todo o suporte pós-venda e operações técnicas.',
+    'tm5.role': 'Gerente de Serviços', 'tm5.desc': 'Gerente do Serviço Técnico. Supervisiona todas as operações de manutenção e suporte.',
+    'tm6.role': 'Engenheiro de Vendas', 'tm6.desc': 'Engenheiro de vendas, desenvolvimento de negócios e marketing nos mercados locais e internacionais.',
+    'tm7.role': 'Engenheiro de Serviço', 'tm7.desc': 'Fornece suporte pós-venda e manutenção. Garante a operação eficiente dos sistemas.',
+    'tm8.role': 'Diretor de Contabilidade', 'tm8.desc': 'Gerencia as operações contábeis e os relatórios financeiros. Garante a conformidade e precisão dos registros financeiros.',
+    'sector0':'Compressores industriais','sector1':'Tecnologia turbo','sector2':'Equipamentos de processo','sector3':'Sistemas de secagem','sector4':'Soluções de resfriamento','sector5':'HVAC e Chillers',
+    'p0_0':'Turbo compressores (Isentos de Óleo, Centrifugos)', 'p0_1':'Sistemas turbo de economia de energia', 'p0_2':'Soluções de recuperação de calor', 'p0_3':'Sistemas de controle e monitoramento (RMS PLC)',
+    'p1_0':'Turbo compressores (Mancais a ar, multi-estágio)', 'p1_1':'Turbo sopradores (séries WL & WH)', 'p1_2':'Sistemas de economia de energia de alta eficiência', 'p1_3':'Aplicações: Têxtil, Alimentar, Petroquímica, Marítima',
+    'p2_0':'Moinhos de bolas e plantas de moagem de minerais', 'p2_1':'Secadores rotativos', 'p2_2':'Classificadores de ar', 'p2_3':'Válvulas desviadoras e válvulas rotativas', 'p2_4':'Silos de armazenamento', 'p2_5':'Plantas de processamento de resinas e químicos',
+    'p3_0':'Secadores de ar quente', 'p3_1':'Secadores desumidificadores', 'p3_2':'Sistemas de dosagem gravimétrica e volumétrica', 'p3_3':'Sistemas de carregamento de tremonha e transporte', 'p3_4':'Controladores de temperatura de molde', 'p3_5':'Chillers de água de processo',
+    'p4_0':'Torres de resfriamento evaporativo (circuito aberto e fechado)', 'p4_1':'Resfriadores de ar', 'p4_2':'Condensadores evaporativos', 'p4_3':'Sistemas de tratamento de água associados', 'p4_4':'Soluções de resfriamento personalizadas para indústrias',
+    'p5_0':'Chillers resfriados a ar (Scroll e Parafuso)', 'p5_1':'Chillers resfriados a água', 'p5_2':'Chillers Turbocor (série TurboPOWER)', 'p5_3':'Chillers de bomba de calor', 'p5_4':'Sistemas HVAC centrais para instalações',
+    'testimonials.tag':'Referências de clientes','testimonials.title':'A confiança dos<br><em>líderes da indústria</em>',
+    'contact.tag':'Contato','contact.title':'Vamos trabalhar<br><em>juntos</em>', 'contact.address':'Endereço','contact.phone':'Telefone','contact.email':'E-mail',
+    'footer.desc':'Soluções de engenharia para compressão industrial, HVAC, resfriamento e sistemas de processo. Representando parceiros tecnológicos de classe mundial.',
+    'footer.company':'Empresa','footer.partners':'Parceiros','footer.products':'Produtos','footer.about':'Sobre Nós','footer.services':'Serviços','footer.team':'Equipe','footer.testimonials':'Referências','footer.contact':'Contato',
+    'footer.compressors':'Compressores','footer.blowers':'Turbo sopradores','footer.hvac':'HVAC / AHU','footer.cooling':'Sistemas de resfriamento','footer.drying':'Sistemas de secagem','footer.chemical':'Processos químicos',
+    'footer.rights':'Todos os direitos reservados. | Hatim Elabdullah','footer.privacy':'Política de Privacidade','footer.terms':'Termos de Uso','footer.sitemap':'Mapa do Site',
+      "modal.join_title": "Candidate-se para uma vaga",
+"modal.full_name": "Nome completo",
+"modal.email": "Endereço de e-mail","modal.phone": "Número de telefone","modal.upload_cv": "Enviar CV (PDF)",
+  },
+  ru: {
+    'nav.home':'Главная','nav.about':'О компании','nav.partners':'Партнеры','nav.services':'Услуги','nav.team':'Команда','nav.testimonials':'Рекомендации','nav.contact':'Контакты','nav.cta':'Запросить предложение','nav-cta.catalog-btn':'каталог','nav-cta.career-btn':'Работайте с нами',
+    'slide.partner':'Ведущий партнер','slide.explore':'Обзор продукции',
+    'slide0.title':'Промышленные<br><em>Компрессоры</em>', 'slide0.desc':'Турбокомпрессоры (безмасляные, центробежные) | Энергосберегающие турбосистемы | Решения по рекуперации тепла.',
+    'slide1.title':'Турбо<br><em>Технологии</em>', 'slide1.desc':'Турбокомпрессоры (на воздушных подшипниках) | Турбовоздуходувки (серии WL и WH) | Высокоэффективные системы.',
+    'slide2.title':'Промышленное<br><em>Оборудование</em>', 'slide2.desc':'Шаровые мельницы и установки для помола минералов | Роторные сушилки | Воздушные классификаторы | Диверторные клапаны.',
+    'slide3.title':'Системы<br><em>Промышленной Сушки</em>', 'slide3.desc':'Сушилки горячего воздуха | Осушители | Гравиметрические системы дозирования | Загрузчики бункеров.',
+    'slide4.title':'Решения для<br><em>Охлаждения</em>', 'slide4.desc':'Испарительные градирни | Воздухоохладители | Испарительные конденсаторы | Очистка воды.',
+    'slide5.title':'HVAC и<br><em>Чиллеры</em>', 'slide5.desc':'Чиллеры с воздушным охлаждением | Чиллеры с водяным охлаждением | Чиллеры Turbocor | Тепловые насосы.',
+    'about.tag':'Об İlteksan', 'about.title':'Формирование будущего<br><em>передовой промышленности</em>',
+    'about.p1':'İlteksan Mühendislik — ведущая инженерно-техническая компания, специализирующаяся на промышленном сжатии, системах HVAC, охлаждении и технологических системах. Мы представляем самых надежных мировых производителей в Турции и регионе.',
+    'about.p2':'От первичной консультации и поставки оборудования до ввода в эксплуатацию и долгосрочной послепродажной поддержки — наша команда экспертов гарантирует максимальную эффективность каждой системы на протяжении всего срока службы.',
+    'about.p3':'Обладая глубоким опытом в секторах производства, энергетики, очистки воды и фармацевтики, мы предлагаем интегрированные решения, обеспечивающие операционное совершенство.',
+    'stat.years':'Лет опыта','stat.projects':'Выполненных проектов','stat.partners':'Мировых партнеров','stat.satisfaction':'Удовлетворенность клиентов',
+    'partners.tag':'Наши партнеры','partners.title':'Мировые<br><em>Технологические Партнеры</em>',
+    'services.tag':'Наши услуги','services.title':'Полный спектр<br><em>Инженерных Услуг</em>',
+    'svc1.title':'Поставка оборудования', 'svc1.desc':'Прямые поставки промышленных компрессоров, воздуходувок, систем охлаждения, ОВиК и сушильного оборудования от сертифицированных мировых партнеров.',
+    'svc2.title':'Ввод в эксплуатацию', 'svc2.desc':'Профессиональный монтаж и запуск оборудования на объекте сертифицированными инженерами с настройкой всех систем согласно спецификациям.',
+    'svc3.title':'Послепродажная поддержка', 'svc3.desc':'Комплексное техническое обслуживание, поставка оригинальных запасных частей и оперативная техподдержка для минимизации простоев.',
+    'svc4.title':'Проектирование систем', 'svc4.desc':'Полное инженерное проектирование систем сжатого воздуха, ОВиК, охлаждения и промышленной сушки с учетом особенностей вашего предприятия.',
+    'svc5.title':'Технический консалтинг', 'svc5.desc':'Аудит энергоэффективности, оптимизация мощностей и экспертная помощь в выборе подходящей технологии для ваших производственных процессов.',
+    'svc6.title':'Энергооптимизация', 'svc6.desc':'Интеллектуальные решения для мониторинга с целью снижения энергопотребления, продления срока службы оборудования и достижения целей устойчивого развития.',
+    'team.tag':'Наша команда', 'team.title':'Эксперты<br><em>стоящие за İlteksan</em>',
+    'tm1.role': 'Основатель', 'tm1.desc': 'Старший инженер-механик. Директор İlteksan Mühendislik.',
+    'tm2.role': 'Основатель и финансовый директор', 'tm2.desc': 'Эксперт по финансам. Директор İlteksan Mühendislik (головной офис в Газиантепе).',
+    'tm3.role': 'Основатель и директор İlteksan Makina', 'tm3.desc': 'Инженер-механик и руководитель филиала (Бурса). Директор İlteksan Makina.',
+    'tm4.role': 'Основатель и технический директор', 'tm4.desc': 'Руководитель технической службы. Курирует всю послепродажную поддержку и технические операции.',
+    'tm5.role': 'Менеджер по сервису', 'tm5.desc': 'Менеджер технической службы. Ответственный за сервисное обслуживание и технические операции.',
+    'tm6.role': 'Инженер по продажам', 'tm6.desc': 'Инженер по продажам, развитию бизнеса и маркетингу на местном и международном рынках.',
+    'tm7.role': 'Инженер сервисной службы', 'tm7.desc': 'Обеспечивает сервисную поддержку и ремонт. Гарантирует бесперебойную работу установленных систем.',
+    'tm8.role': 'Директор по бухгалтерскому учету', 'tm8.desc': 'Управляет бухгалтерскими операциями и финансовой отчетностью. Обеспечивает соблюдение нормативов и точность финансовых записей.',
+    'sector0':'Промышленные компрессоры','sector1':'Турбо технологии','sector2':'Технологическое оборудование','sector3':'Системы сушки','sector4':'Решения для охлаждения','sector5':'HVAC и чиллеры',
+    'p0_0':'Турбокомпрессоры (безмасляные, центробежные)', 'p0_1':'Энергосберегающие турбосистемы', 'p0_2':'Решения по рекуперации тепла', 'p0_3':'Системы управления и мониторинга (RMS PLC)',
+    'p1_0':'Турбокомпрессоры (на воздушных подшипниках)', 'p1_1':'Турбовоздуходувки (серии WL и WH)', 'p1_2':'Высокоэффективные энергосберегающие системы', 'p1_3':'Применение: Текстиль, Пищепром, Нефтехимия, Морской флот',
+    'p2_0':'Шаровые мельницы и установки для помола', 'p2_1':'Роторные сушилки', 'p2_2':'Воздушные классификаторы', 'p2_3':'Диверторные и роторные клапаны', 'p2_4':'Силосы для хранения', 'p2_5':'Установки для переработки смол и химикатов',
+    'p3_0':'Сушилки горячего воздуха', 'p3_1':'Осушители', 'p3_2':'Гравиметрические и волюметрические системы дозирования', 'p3_3':'Системы загрузки бункеров и транспортировки', 'p3_4':'Контроллеры температуры пресс-форм', 'p3_5':'Чиллеры для технологической воды',
+    'p4_0':'Испарительные градирни (открытого и закрытого типа)', 'p4_1':'Воздухоохладители', 'p4_2':'Испарительные конденсаторы', 'p4_3':'Системы очистки оборотной воды', 'p4_4':'Индивидуальные решения по охлаждению для индустрии',
+    'p5_0':'Чиллеры с воздушным охлаждением (Scroll и Screw)', 'p5_1':'Чиллеры с водяным охлаждением', 'p5_2':'Чиллеры Turbocor (серия TurboPOWER)', 'p5_3':'Теплонасосные чиллеры', 'p5_4':'Центральные системы HVAC для предприятий',
+    'testimonials.tag':'Рекомендации клиентов','testimonials.title':'Доверие<br><em>лидеров индустрии</em>',
+    'contact.tag':'Связаться с нами','contact.title':'Давайте работать<br><em>вместе</em>', 'contact.address':'Адрес','contact.phone':'Телефон','contact.email':'Электронная почта',
+    'footer.desc':'Инженерные решения для промышленного сжатия, систем HVAC, охлаждения и технологий. Представитель мировых технологических партнеров.',
+    'footer.company':'Компания','footer.partners':'Партнеры','footer.products':'Продукция','footer.about':'О нас','footer.services':'Услуги','footer.team':'Команда','footer.testimonials':'Рекомендации','footer.contact':'Контакты',
+    'footer.compressors':'Компрессоры','footer.blowers':'Турбовоздуходувки','footer.hvac':'HVAC / AHU','footer.cooling':'Системы охлаждения','footer.drying':'Системы сушки','footer.chemical':'Химпроцессы',
+    'footer.rights':'Все права защищены. | Hatim Elabdullah','footer.privacy':'Политика конфиденциальности','footer.terms':'Условия использования','footer.sitemap':'Карта сайта',
+      "modal.join_title": "Подать заявку на вакансию",
+"modal.full_name": "Полное имя",
+"modal.email": "Адрес электронной почты","modal.phone": "Номер телефона","modal.upload_cv": "Загрузить резюме (PDF)",
+  }
+};
+const langMeta={en:{flag:'🇬🇧',code:'EN',dir:'ltr'},ar:{flag:'🇸🇦',code:'AR',dir:'rtl'},tr:{flag:'🇹🇷',code:'TR',dir:'ltr'},fr:{flag:'🇫🇷',code:'FR',dir:'ltr'},es:{flag:'🇪🇸',code:'ES',dir:'ltr'},it:{flag:'🇮🇹',code:'IT',dir:'ltr'},pt:{flag:'🇵🇹',code:'PT',dir:'ltr'},ru:{flag:'🇷🇺',code:'RU',dir:'ltr'}};
+function applyLang(lang){
+  const t = i18n[lang] || i18n.en;
+  const meta = langMeta[lang];
+  document.documentElement.lang = lang;
+  document.documentElement.dir = meta.dir;
+  
+  const flagEl = document.getElementById('currentFlag');
+  const codeEl = document.getElementById('currentLangCode');
+  if(flagEl) flagEl.textContent = meta.flag;
+  if(codeEl) codeEl.textContent = meta.code;
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const k = el.getAttribute('data-i18n');
+    if (k.startsWith('[placeholder]')) {
+      const realKey = k.replace('[placeholder]', '');
+      if (t[realKey]) {
+        el.setAttribute('placeholder', t[realKey]);
+      }
+    } else {
+      if (t[k]) {
+        el.innerHTML = t[k];
+      }
+    }
+  });
+  document.querySelectorAll('.lang-option').forEach(b => {
+    b.classList.toggle('active', b.dataset.lang === lang);
+  });
+}
+document.querySelectorAll('.lang-option').forEach(b=>b.addEventListener('click',()=>applyLang(b.dataset.lang)));
+const SL=[
+  {bg1:'#030D1A',bg2:'#061830',bg3:'#0D3060',a1:'#3A8FD4',a2:'#1E60A8'},
+  {bg1:'#030F18',bg2:'#072030',bg3:'#0F4060',a1:'#30B0D0',a2:'#158098'},
+  {bg1:'#080E1C',bg2:'#101828',bg3:'#1A3055',a1:'#5090C8',a2:'#3068A0'},
+  {bg1:'#060B18',bg2:'#0C1830',bg3:'#182A58',a1:'#4AA8E0',a2:'#2880B8'},
+  {bg1:'#030C10',bg2:'#071820',bg3:'#0D3840',a1:'#30B8B0',a2:'#189890'},
+  {bg1:'#040A18',bg2:'#081428',bg3:'#102245',a1:'#70C0E8',a2:'#3898C8'},
+];
+function drawScene(canvas,cfg,t,type){
+  const ctx=canvas.getContext('2d'),W=canvas.width,H=canvas.height;
+  ctx.clearRect(0,0,W,H);
+  const g=ctx.createRadialGradient(W*.7,H*.38,0,W*.5,H*.5,W*.92);
+  g.addColorStop(0,cfg.bg3);g.addColorStop(.5,cfg.bg2);g.addColorStop(1,cfg.bg1);
+  ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
+  const fog=ctx.createRadialGradient(W*.68,H*.42,0,W*.68,H*.42,W*.5);
+  fog.addColorStop(0,cfg.a1+'20');fog.addColorStop(.7,cfg.a1+'06');fog.addColorStop(1,'rgba(0,0,0,0)');
+  ctx.fillStyle=fog;ctx.fillRect(0,0,W,H);
+  if(type===0){
+    ctx.save();
+    ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=2.5;ctx.lineCap='round';
+    ctx.beginPath();ctx.moveTo(40,90);ctx.lineTo(90,90);ctx.stroke();
+    ctx.save();ctx.translate(85,90);
+    ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=1.5;
+    for(let v=0;v<8;v++){
+      ctx.save();ctx.rotate((v/8)*Math.PI*2);
+      ctx.beginPath();ctx.moveTo(0,-15);ctx.lineTo(0,15);ctx.stroke();
+      ctx.restore();
+    }
+    ctx.restore();
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=2;
+    ctx.beginPath();ctx.arc(200,90,80,0,Math.PI*2);ctx.fill();ctx.stroke();
+    ctx.save();ctx.translate(200,90);
+    ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.2;
+    for(let d=0;d<12;d++){
+      ctx.save();ctx.rotate((d/12)*Math.PI*2);
+      ctx.beginPath();ctx.moveTo(45,0);ctx.lineTo(70,0);ctx.stroke();
+      ctx.restore();
+    }
+    ctx.restore();
+    ctx.save();ctx.translate(200,90);ctx.rotate(t*0.012);
+    ctx.fillStyle=cfg.a1+'55';ctx.strokeStyle=cfg.a1+'99';ctx.lineWidth=2;
+    for(let i=0;i<16;i++){
+      const ang=(i/16)*Math.PI*2;
+      ctx.save();ctx.rotate(ang);
+      ctx.beginPath();
+      ctx.moveTo(8,-25);ctx.quadraticCurveTo(15,-35,25,-20);
+      ctx.quadraticCurveTo(20,-10,8,-15);
+      ctx.closePath();
+      ctx.fill();ctx.stroke();
+      ctx.restore();
+    }
+    ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'99';ctx.lineWidth=2;
+    ctx.beginPath();ctx.arc(0,0,18,0,Math.PI*2);ctx.fill();ctx.stroke();
+    ctx.rotate(-t*0.012);
+    ctx.restore();
+    ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=3;
+    ctx.beginPath();ctx.arc(280,90,25,Math.PI*0.3,Math.PI*1.7);ctx.stroke();
+    ctx.beginPath();ctx.moveTo(305,90);ctx.lineTo(340,90);ctx.stroke();
+    ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=2;
+    ctx.beginPath();ctx.arc(120,90,15,0,Math.PI*2);ctx.fill();ctx.stroke();
+    ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.moveTo(135,90);ctx.lineTo(185,90);ctx.stroke();
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+    rr(ctx,175,75,50,30,3);ctx.fill();ctx.stroke();
+    ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.arc(350,60,10,0,Math.PI*2);ctx.stroke();
+    const spGauge=Math.sin(t*0.004)*Math.PI*0.8;
+    ctx.strokeStyle=cfg.a1;ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.moveTo(350,60);ctx.lineTo(350+Math.cos(spGauge)*7,60+Math.sin(spGauge)*7);ctx.stroke();
+    ctx.fillStyle=cfg.a1+'44';ctx.font='7px Arial';ctx.textAlign='center';
+    ctx.fillText('Ps',350,75);
+    ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.arc(380,60,10,0,Math.PI*2);ctx.stroke();
+    const dpGauge=Math.sin(t*0.005+1)*Math.PI*0.8;
+    ctx.strokeStyle=cfg.a1;ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.moveTo(380,60);ctx.lineTo(380+Math.cos(dpGauge)*7,60+Math.sin(dpGauge)*7);ctx.stroke();
+    ctx.fillText('Pd',380,75);
+    ctx.fillStyle=cfg.a1+'44';ctx.font='8px Arial';
+    ctx.fillText('T: '+(Math.floor(Math.sin(t*0.003)*20+80))+'°C',360,120);
+    ctx.fillText(Math.floor(Math.sin(t*0.002)*500+8000)+' RPM',200,140);
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+    rr(ctx,420,40,80,100,4);ctx.fill();ctx.stroke();
+    for(let l=0;l<4;l++){
+      const colors=[cfg.a1,cfg.a1+'77',cfg.a1+'55','#FF4444'];
+      ctx.fillStyle=colors[l];
+      ctx.beginPath();ctx.arc(440,55+l*20,3,0,Math.PI*2);ctx.fill();
+      const labels=['RUN','READY','ALARM','FAULT'];
+      ctx.fillStyle=cfg.a1+'44';ctx.font='6px Arial';
+      ctx.fillText(labels[l],460,58+l*20);
+    }
+    ctx.restore();
+  }
+  else if(type===1){
+    ctx.save();
+    const cx=300,cy=90;
+    ctx.translate(cx,cy);
+    ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=2.5;ctx.lineCap='round';
+    ctx.beginPath();ctx.moveTo(-120,0);ctx.lineTo(-80,0);ctx.stroke();
+    ctx.fillStyle=cfg.a1+'22';ctx.fillRect(-75,-8,5,16);
+    ctx.strokeStyle=cfg.a1+'44';ctx.lineWidth=0.5;
+    for(let f=0;f<4;f++){ctx.beginPath();ctx.moveTo(-73,-6+f*4);ctx.lineTo(-71,-6+f*4);ctx.stroke();}
+    ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=1.5;
+    for(let v=0;v<10;v++){
+      ctx.save();ctx.rotate((v/10)*Math.PI*2);
+      ctx.beginPath();ctx.moveTo(-45,0);ctx.lineTo(-35,0);ctx.stroke();
+      ctx.restore();
+    }
+    ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=2;
+    ctx.beginPath();ctx.arc(0,0,85,0,Math.PI*2);ctx.stroke();
+    ctx.beginPath();ctx.arc(0,0,85,Math.PI*1.2,Math.PI*1.8);ctx.stroke();
+    ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.2;
+    for(let d=0;d<14;d++){
+      ctx.save();ctx.rotate((d/14)*Math.PI*2);
+      ctx.beginPath();ctx.moveTo(50,0);ctx.lineTo(75,0);ctx.stroke();
+      ctx.restore();
+    }
+    ctx.rotate(t*0.008);
+    ctx.fillStyle=cfg.a1+'55';ctx.strokeStyle=cfg.a1+'99';ctx.lineWidth=2;
+    for(let i=0;i<12;i++){
+      const ang=(i/12)*Math.PI*2;
+      ctx.save();ctx.rotate(ang);
+      ctx.beginPath();
+      ctx.moveTo(-6,-40);ctx.quadraticCurveTo(-12,-50,-8,-60);
+      ctx.quadraticCurveTo(-2,-45,6,-40);
+      ctx.closePath();
+      ctx.fill();ctx.stroke();
+      ctx.restore();
+    }
+    ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'99';ctx.lineWidth=2;
+    ctx.beginPath();ctx.arc(0,0,25,0,Math.PI*2);ctx.fill();ctx.stroke();
+    ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=3;
+    ctx.beginPath();ctx.moveTo(-30,0);ctx.lineTo(30,0);ctx.stroke();
+    ctx.rotate(-t*0.008);
+    ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.arc(-35,0,8,0,Math.PI*2);ctx.fill();ctx.stroke();
+    ctx.beginPath();ctx.arc(35,0,8,0,Math.PI*2);ctx.fill();ctx.stroke();
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=2;
+    rr(ctx,-60,-20,25,40,3);ctx.fill();ctx.stroke();
+    ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=2.5;
+    ctx.beginPath();ctx.moveTo(50,0);ctx.lineTo(90,0);ctx.stroke();
+    ctx.fillStyle=cfg.a1+'44';ctx.font='9px Arial';ctx.textAlign='center';
+    ctx.fillText('Inlet: '+(Math.floor(Math.sin(t*0.004)*0.1+1.0))+' bar',-90,-35);
+    ctx.fillText('Outlet: '+(Math.floor(Math.sin(t*0.005)*0.2+1.5))+' bar',80,-35);
+    ctx.fillText(Math.floor(Math.sin(t*0.002)*2000+15000)+' RPM',-80,35);
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+    rr(ctx,100,-40,80,80,3);ctx.fill();ctx.stroke();
+    for(let l=0;l<3;l++){
+      const colors=[cfg.a1,cfg.a1+'77','#FFAA44'];
+      ctx.fillStyle=colors[l];
+      ctx.beginPath();ctx.arc(120,-25+l*20,3,0,Math.PI*2);ctx.fill();
+      const labels=['RUN','READY','MAINT'];
+      ctx.fillStyle=cfg.a1+'44';ctx.font='6px Arial';
+      ctx.fillText(labels[l],140,-22+l*20);
+    }
+    ctx.restore();
+  }
+  else if(type===2){
+    ctx.save();
+    for(let i=0;i<3;i++){
+      const sx=100+i*145;
+      ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=2;
+      rr(ctx,sx,15,90,125,6);ctx.fill();ctx.stroke();
+      ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=1.5;
+      ctx.beginPath();ctx.moveTo(sx+95,20);ctx.lineTo(sx+95,140);ctx.stroke();
+      for(let r=0;r<6;r++){
+        ctx.beginPath();ctx.moveTo(sx+95,25+r*20);ctx.lineTo(sx+100,25+r*20);ctx.stroke();
+      }
+      ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+      ctx.beginPath();ctx.arc(sx+45,10,6,0,Math.PI*2);ctx.fill();ctx.stroke();
+      ctx.strokeStyle=cfg.a1+'44';ctx.lineWidth=0.8;
+      ctx.beginPath();ctx.moveTo(sx+45,4);ctx.lineTo(sx+45,16);ctx.stroke();
+      const level=Math.sin(t*0.005+i)*0.3+0.6;
+      ctx.fillStyle=cfg.a1+'22';
+      ctx.fillRect(sx+10,15+80*(1-level),70,80*level);
+      ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1;
+      for(let s=0;s<3;s++){
+        const sLevel=0.2+s*0.3;
+        const active=sLevel<level;
+        ctx.strokeStyle=active?cfg.a1:cfg.a1+'44';
+        ctx.beginPath();ctx.moveTo(sx+85,15+80*(1-sLevel));ctx.lineTo(sx+90,15+80*(1-sLevel));ctx.stroke();
+      }
+      ctx.strokeStyle=cfg.a1+'44';ctx.lineWidth=0.8;
+      for(let m=0;m<6;m++){
+        ctx.beginPath();ctx.moveTo(sx+5,25+m*18);ctx.lineTo(sx+8,25+m*18);ctx.stroke();
+        ctx.fillStyle=cfg.a1+'44';ctx.font='6px Arial';
+        ctx.fillText((100-m*16)+'%',sx-15,28+m*18);
+      }
+      ctx.beginPath();ctx.moveTo(sx+15,140);ctx.lineTo(sx+75,140);ctx.lineTo(sx+45,175);ctx.closePath();
+      ctx.fill();ctx.stroke();
+      ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+      ctx.beginPath();ctx.arc(sx+45,155,5,0,Math.PI*2);ctx.fill();ctx.stroke();
+      ctx.strokeStyle=cfg.a1+'44';ctx.lineWidth=0.8;
+      ctx.beginPath();ctx.moveTo(sx+45,150);ctx.lineTo(sx+45,160);ctx.stroke();
+      const flow=(t*0.008+i*1.5)%1;
+      const vib=Math.sin(t*0.05+i)*2;
+      for(let p=0;p<3;p++){
+        ctx.fillStyle=cfg.a1;
+        ctx.beginPath();ctx.arc(sx+35+Math.cos(t*0.01+p)*8+vib,145+flow*25,2,0,Math.PI*2);ctx.fill();
+      }
+      ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=2;
+      ctx.beginPath();ctx.moveTo(sx+40,175);ctx.lineTo(sx+40,190);ctx.stroke();
+      ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=1.5;
+      ctx.fillRect(sx+35,185,10,8);ctx.strokeRect(sx+35,185,10,8);
+      ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=2;
+      ctx.beginPath();ctx.moveTo(sx+50,5);ctx.lineTo(sx+50,15);ctx.stroke();
+      ctx.fillStyle=cfg.a1+'44';
+      ctx.beginPath();ctx.arc(sx+50,5,3,0,Math.PI*2);ctx.fill();
+    }
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+    rr(ctx,480,20,90,100,4);ctx.fill();ctx.stroke();
+    ctx.fillStyle=cfg.a1+'44';ctx.font='7px Arial';ctx.textAlign='center';
+    for(let d=0;d<3;d++){
+      ctx.fillText('Silo '+(d+1)+': '+(Math.floor(Math.sin(t*0.006+d)*20+70))+'%',510,40+d*25);
+    }
+    for(let l=0;l<4;l++){
+      const colors=[cfg.a1,cfg.a1+'77',cfg.a1+'55','#FF4444'];
+      ctx.fillStyle=colors[l];
+      ctx.beginPath();ctx.arc(495,75+l*15,3,0,Math.PI*2);ctx.fill();
+      const labels=['AUTO','MANUAL','ALARM','FAULT'];
+      ctx.fillStyle=cfg.a1+'44';ctx.font='5px Arial';
+      ctx.fillText(labels[l],515,78+l*15);
+    }
+    ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=2;
+    ctx.beginPath();ctx.moveTo(50,160);ctx.lineTo(550,160);ctx.stroke();
+    for(let r=0;r<10;r++){
+      ctx.fillStyle=cfg.bg3;
+      ctx.beginPath();ctx.arc(70+r*45,160,4,0,Math.PI*2);ctx.fill();
+    }
+    ctx.restore();
+  }
+  else if(type===3){
+    ctx.save();
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=2;
+    ctx.beginPath();ctx.moveTo(90,40);ctx.lineTo(200,40);ctx.lineTo(230,160);ctx.lineTo(60,160);ctx.closePath();
+    ctx.fill();ctx.stroke();
+    ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.moveTo(75,35);ctx.lineTo(215,35);ctx.lineTo(235,165);ctx.lineTo(55,165);ctx.closePath();
+    ctx.stroke();
+    const liqLevel=Math.sin(t*0.004)*0.2+0.6;
+    ctx.fillStyle=cfg.a1+'22';
+    ctx.beginPath();ctx.moveTo(90+40*(1-liqLevel),40+100*liqLevel);ctx.lineTo(200-40*(1-liqLevel),40+100*liqLevel);
+    ctx.lineTo(200,160);ctx.lineTo(90,160);ctx.closePath();
+    ctx.fill();
+    ctx.save();ctx.translate(145,110);ctx.rotate(t*0.008);
+    for(let v=0;v<3;v++){
+      const radius=20+v*15;
+      ctx.strokeStyle=cfg.a1+'33';ctx.lineWidth=1;
+      ctx.beginPath();ctx.arc(0,0,radius,0,Math.PI*2);ctx.stroke();
+    }
+    ctx.restore();
+    const mx=145,my=110;
+    ctx.save();ctx.translate(mx,my);ctx.rotate(t*0.008);
+    ctx.strokeStyle=cfg.a1+'99';ctx.lineWidth=2.5;
+    ctx.fillStyle=cfg.a1+'55';
+    ctx.beginPath();ctx.moveTo(-8,-35);ctx.lineTo(-8,35);ctx.lineTo(8,35);ctx.lineTo(8,-35);ctx.closePath();
+    ctx.fill();ctx.stroke();
+    for(let b=0;b<3;b++){
+      ctx.save();ctx.rotate(b*Math.PI*2/3);
+      ctx.beginPath();ctx.moveTo(-4,-40);ctx.lineTo(-4,40);ctx.lineTo(4,40);ctx.lineTo(4,-40);ctx.closePath();
+      ctx.fill();ctx.stroke();
+      ctx.restore();
+    }
+    ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'99';ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.arc(0,0,8,0,Math.PI*2);ctx.fill();ctx.stroke();
+    ctx.restore();
+    for(let d=0;d<4;d++){
+      const dx=50+d*60, dy=15;
+      ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+      ctx.beginPath();ctx.moveTo(dx,dy);ctx.lineTo(dx+20,dy);ctx.lineTo(dx+15,dy+25);ctx.lineTo(dx+5,dy+25);ctx.closePath();
+      ctx.fill();ctx.stroke();
+      ctx.fillStyle=cfg.a1+'44';
+      ctx.beginPath();ctx.arc(dx+10,dy,4,0,Math.PI*2);ctx.fill();
+      ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=2;
+      ctx.beginPath();ctx.moveTo(dx+10,dy+25);ctx.quadraticCurveTo(dx+10,35,105+d*20,40);ctx.stroke();
+    }
+    ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=1.5;
+    for(let lc=0;lc<3;lc++){
+      rr(ctx,85+lc*45,165,20,8,2);ctx.fill();ctx.stroke();
+    }
+    ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=2;
+    ctx.beginPath();ctx.moveTo(55,50);ctx.lineTo(55,140);ctx.stroke();
+    ctx.strokeStyle=cfg.a1;
+    for(let h=0;h<5;h++){
+      ctx.beginPath();ctx.moveTo(50,55+h*18);ctx.lineTo(60,55+h*18);ctx.stroke();
+    }
+    ctx.fillStyle=cfg.a1+'44';ctx.font='7px Arial';
+    ctx.fillText('T: '+(Math.floor(Math.sin(t*0.003)*30+70))+'°C',240,50);
+    ctx.fillText('P: '+(Math.floor(Math.sin(t*0.004)*2+3))+' bar',240,65);
+    ctx.fillText('pH: '+(Math.floor(Math.sin(t*0.005)*2+6)).toFixed(1),240,80);
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+    rr(ctx,250,30,90,120,3);ctx.fill();ctx.stroke();
+    ctx.fillStyle=cfg.a1+'44';ctx.font='6px Arial';ctx.textAlign='left';
+    ctx.fillText('Recipe: Batch #'+Math.floor(t*0.001%100),260,50);
+    ctx.fillText('Progress: '+(Math.floor(Math.sin(t*0.002)*40+60))+'%',260,65);
+    const components=['Water','Base','Acid','Additive'];
+    for(let c=0;c<4;c++){
+      const active=Math.sin(t*0.01+c)>0;
+      ctx.fillStyle=active?cfg.a1:cfg.a1+'44';
+      ctx.beginPath();ctx.arc(275,85+c*15,2,0,Math.PI*2);ctx.fill();
+      ctx.fillStyle=cfg.a1+'44';ctx.font='5px Arial';
+      ctx.fillText(components[c],285,88+c*15);
+    }
+    ctx.fillText('RPM: '+(Math.floor(Math.sin(t*0.006)*50+100)),260,140);
+    ctx.restore();
+  }
+  else if(type===4){
+    ctx.save();
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=2;
+    rr(ctx,80,140,240,40,4);ctx.fill();ctx.stroke();
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=2;
+    ctx.beginPath();
+    ctx.moveTo(120,140);ctx.quadraticCurveTo(140,80,200,40);
+    ctx.quadraticCurveTo(260,80,280,140);
+    ctx.closePath();
+    ctx.fill();ctx.stroke();
+    ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=1.5;
+    for(let l=0;l<8;l++){
+      ctx.beginPath();ctx.moveTo(130+l*18,140);ctx.lineTo(130+l*18,155);ctx.stroke();
+    }
+    ctx.fillStyle=cfg.a1+'22';ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=1.5;
+    rr(ctx,100,25,200,20,3);ctx.fill();ctx.stroke();
+    ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.2;
+    for(let n=0;n<12;n++){
+      const nx=110+n*16;
+      ctx.beginPath();ctx.moveTo(nx,35);ctx.lineTo(nx,45);ctx.stroke();
+      const spray=(t*0.02+n*0.5)%1;
+      for(let s=0;s<3;s++){
+        ctx.beginPath();ctx.arc(nx+Math.cos(s*Math.PI*2/3)*spray*8,45+Math.sin(s*Math.PI*2/3)*spray*8,0.5,0,Math.PI*2);ctx.fill();
+      }
+    }
+    ctx.fillStyle=cfg.a1+'11';ctx.strokeStyle=cfg.a1+'33';ctx.lineWidth=0.3;
+    for(let fx=0;fx<10;fx++){
+      for(let fy=0;fy<6;fy++){
+        const fx_pos=125+fx*18;
+        const fy_pos=50+fy*12;
+        ctx.strokeRect(fx_pos,fy_pos,12,8);
+        ctx.beginPath();ctx.moveTo(fx_pos+3,fy_pos+2);ctx.lineTo(fx_pos+9,fy_pos+2);ctx.stroke();
+        ctx.beginPath();ctx.moveTo(fx_pos+6,fy_pos+2);ctx.lineTo(fx_pos+6,fy_pos+6);ctx.stroke();
+      }
+    }
+    for(let c=0;c<8;c++){
+      const cf=(t*0.018+c*0.3)%1;
+      const cx_pos=135+c*20;
+      ctx.fillStyle=cfg.a1+'55';
+      ctx.beginPath();ctx.arc(cx_pos,50+cf*60,1.2,0,Math.PI*2);ctx.fill();
+      for(let d=0;d<2;d++){
+        ctx.beginPath();ctx.arc(cx_pos+Math.sin(t*0.01+c)*3,55+cf*60+d*8,0.8,0,Math.PI*2);ctx.fill();
+      }
+    }
+    ctx.fillStyle=cfg.a1+'22';ctx.strokeStyle=cfg.a1+'44';ctx.lineWidth=0.8;
+    for(let de=0;de<6;de++){
+      ctx.strokeRect(140+de*25,105,15,3);
+      ctx.strokeRect(140+de*25,108,15,3);
+    }
+    ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=2;
+    rr(ctx,160,115,80,15,3);ctx.fill();ctx.stroke();
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+    rr(ctx,185,100,30,20,2);ctx.fill();ctx.stroke();
+    ctx.save();ctx.translate(200,125);ctx.rotate(t*0.015);
+    ctx.strokeStyle=cfg.a1+'99';ctx.lineWidth=2;
+    ctx.fillStyle=cfg.a1+'55';
+    for(let f=0;f<6;f++){
+      ctx.save();ctx.rotate((f/6)*Math.PI*2);
+      ctx.beginPath();ctx.ellipse(0,20,4,16,0,0,Math.PI*2);ctx.fill();ctx.stroke();
+      ctx.restore();
+    }
+    ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'99';ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.arc(0,0,6,0,Math.PI*2);ctx.fill();ctx.stroke();
+    ctx.restore();
+    ctx.fillStyle=cfg.a1+'33';ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=1.5;
+    rr(ctx,80,175,240,15,3);ctx.fill();ctx.stroke();
+    ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=3;
+    ctx.beginPath();ctx.moveTo(200,190);ctx.lineTo(200,210);ctx.stroke();
+    ctx.fillStyle=cfg.a1+'44';ctx.font='8px Arial';ctx.textAlign='center';
+    ctx.fillText('Hot: '+(Math.floor(Math.sin(t*0.003)*10+35))+'°C',150,20);
+    ctx.fillText('Cold: '+(Math.floor(Math.sin(t*0.003+1)*8+25))+'°C',250,20);
+    ctx.fillText('ΔT: '+(Math.floor(Math.sin(t*0.003)*5+10))+'°C',200,165);
+    ctx.fillText('Flow: '+(Math.floor(Math.sin(t*0.004)*20+80))+' m³/h',300,135);
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+    rr(ctx,320,50,70,90,3);ctx.fill();ctx.stroke();
+    for(let st=0;st<3;st++){
+      const stColors=[cfg.a1,cfg.a1+'77','#FF6666'];
+      ctx.fillStyle=stColors[st];
+      ctx.beginPath();ctx.arc(335,65+st*25,3,0,Math.PI*2);ctx.fill();
+      const labels=['FAN','PUMP','ALARM'];
+      ctx.fillStyle=cfg.a1+'44';ctx.font='6px Arial';
+      ctx.fillText(labels[st],355,68+st*25);
+    }
+    ctx.restore();
+  }
+  else{
+    ctx.save();
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=2;
+    rr(ctx,30,15,520,140,6);ctx.fill();ctx.stroke();
+    ctx.fillStyle=cfg.a1+'11';ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+    rr(ctx,40,25,480,35,3);ctx.fill();ctx.stroke();
+    ctx.fillStyle=cfg.a1+'44';ctx.font='8px Arial';ctx.fillText('SUPPLY AIR: '+(Math.floor(Math.sin(t*0.004)*5+15))+'°C',250,45);
+    ctx.save();ctx.translate(120,55);ctx.rotate(t*0.012);
+    ctx.strokeStyle=cfg.a1+'99';ctx.lineWidth=2.5;
+    ctx.fillStyle=cfg.a1+'55';
+    for(let sf=0;sf<6;sf++){
+      ctx.save();ctx.rotate((sf/6)*Math.PI*2);
+      ctx.beginPath();ctx.ellipse(0,22,5,16,0,0,Math.PI*2);ctx.fill();ctx.stroke();
+      ctx.restore();
+    }
+    ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.arc(0,0,10,0,Math.PI*2);ctx.fill();ctx.stroke();
+    ctx.restore();
+    ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=2;
+    rr(ctx,180,70,120,25,2);ctx.fill();ctx.stroke();
+    ctx.fillStyle=cfg.a1+'44';ctx.font='7px Arial';ctx.textAlign='center';
+    ctx.fillText('DX COOLING COIL',240,82);
+    ctx.strokeStyle=cfg.a1+'55';ctx.lineWidth=0.8;
+    for(let f=0;f<8;f++){
+      ctx.beginPath();ctx.moveTo(185+f*14,70);ctx.lineTo(185+f*14,95);ctx.stroke();
+    }
+    ctx.fillStyle=cfg.bg3;ctx.strokeStyle=cfg.a1+'88';ctx.lineWidth=2;
+    rr(ctx,320,70,120,25,2);ctx.fill();ctx.stroke();
+    ctx.fillText('HOT WATER COIL',380,82);
+    ctx.strokeStyle=cfg.a1;ctx.lineWidth=1.5;
+    for(let h=0;h<6;h++){
+      ctx.beginPath();ctx.moveTo(325+h*18,72);ctx.lineTo(325+h*18,93);ctx.stroke();
+    }
+    ctx.fillStyle=cfg.a1+'22';ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=1.5;
+    rr(ctx,460,25,60,35,2);ctx.fill();ctx.stroke();
+    ctx.fillStyle=cfg.a1+'44';ctx.font='6px Arial';ctx.textAlign='center';
+    ctx.fillText('FILTERS',490,50);
+    ctx.strokeStyle=cfg.a1+'44';ctx.lineWidth=0.5;
+    for(let fl=0;fl<4;fl++){
+      ctx.strokeRect(465+fl*3,30,2,25);
+    }
+    ctx.fillStyle=cfg.a1+'33';ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+    rr(ctx,40,110,480,35,3);ctx.fill();ctx.stroke();
+    ctx.fillStyle=cfg.a1+'44';ctx.font='8px Arial';ctx.fillText('RETURN AIR: '+(Math.floor(Math.sin(t*0.005)*8+22))+'°C',250,130);
+    ctx.save();ctx.translate(480,130);ctx.rotate(-t*0.015);
+    ctx.strokeStyle=cfg.a1+'cc';ctx.lineWidth=2;
+    ctx.fillStyle=cfg.a1+'77';
+    for(let rf=0;rf<4;rf++){
+      ctx.save();ctx.rotate((rf/4)*Math.PI*2);
+      ctx.beginPath();ctx.ellipse(0,18,4,14,0,0,Math.PI*2);ctx.fill();ctx.stroke();
+      ctx.restore();
+    }
+    ctx.restore();
+    ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=3;
+    ctx.beginPath();ctx.moveTo(200,15);ctx.lineTo(200,10);ctx.stroke();
+    for(let b=0;b<4;b++){
+      ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=2;
+      ctx.beginPath();ctx.moveTo(80+b*120,60);ctx.lineTo(80+b*120,15);ctx.stroke();
+      ctx.fillStyle=cfg.bg3;
+      ctx.fillRect(75+b*120,20,10,5);
+    }
+    for(let v=0;v<3;v++){
+      ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+      rr(ctx,60+v*160,155,40,20,2);ctx.fill();ctx.stroke();
+      ctx.fillStyle=cfg.a1+'44';ctx.font='5px Arial';ctx.textAlign='center';
+      ctx.fillText('VAV '+(v+1),80+v*160,168);
+    }
+    ctx.fillStyle=cfg.bg2;ctx.strokeStyle=cfg.a1+'77';ctx.lineWidth=1.5;
+    rr(ctx,480,70,60,70,3);ctx.fill();ctx.stroke();
+    ctx.fillStyle=cfg.a1+'44';ctx.font='6px Arial';ctx.textAlign='left';
+    ctx.fillText('CFM: '+(Math.floor(Math.sin(t*0.003)*500+2000)),485,85);
+    ctx.fillText('RH: '+(Math.floor(Math.sin(t*0.004)*20+45))+'%',485,95);
+    ctx.fillText('SP: '+(Math.floor(Math.sin(t*0.005)*5+22))+'°C',485,105);
+    ctx.fillText('Mode: '+(Math.sin(t*0.01)>0?'COOL':'HEAT'),485,115);
+    for(let st=0;st<4;st++){
+      const colors=[cfg.a1,cfg.a1+'77',cfg.a1+'55','#FF4444'];
+      ctx.fillStyle=colors[st];
+      ctx.beginPath();ctx.arc(495,125+st*8,2,0,Math.PI*2);ctx.fill();
+      const labels=['RUN','COOL','HEAT','ALARM'];
+      ctx.fillStyle=cfg.a1+'44';ctx.font='4px Arial';
+      ctx.fillText(labels[st],505,128+st*8);
+    }
+    ctx.strokeStyle=cfg.a1+'66';ctx.lineWidth=2;
+    ctx.beginPath();ctx.moveTo(10,80);ctx.lineTo(30,80);ctx.stroke();
+    ctx.fillStyle=cfg.a1+'44';ctx.font='6px Arial';
+    ctx.fillText('OA: '+(Math.floor(Math.sin(t*0.006)*10+5))+'%',10,75);
+    ctx.restore();
+  }
+  ctx.save();ctx.strokeStyle=cfg.a1+'0E';ctx.lineWidth=.5;
+  const gs=70,sh=(t*.016)%gs;
+  for(let x=-gs+sh;x<W+gs;x+=gs){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke()}
+  for(let y=0;y<H;y+=gs){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke()}
+  ctx.restore();
+  const sy=((t*.035)%H);
+  const sl=ctx.createLinearGradient(0,sy-3,0,sy+3);
+  sl.addColorStop(0,'rgba(0,0,0,0)');sl.addColorStop(.5,cfg.a1+'12');sl.addColorStop(1,'rgba(0,0,0,0)');
+  ctx.fillStyle=sl;ctx.fillRect(0,sy-3,W,6);
+  for(let i=0;i<16;i++){
+    const px=((cfg.bg1.length*137+i*251)%W+W)%W;
+    const py_b=((cfg.bg1.length*99+i*173)%H+H)%H;
+    const py=((py_b-t*(.012+(i%4)*.007))%H+H)%H;
+    ctx.beginPath();ctx.arc(px,py,.7+(i%3)*.5,0,Math.PI*2);
+    ctx.fillStyle=cfg.a1+Math.floor((.15+Math.sin(t*.002+i)*.1)*255).toString(16).padStart(2,'0');ctx.fill();
+  }
+}
+function rr(ctx,x,y,w,h,r){
+  ctx.beginPath();ctx.moveTo(x+r,y);ctx.lineTo(x+w-r,y);ctx.arcTo(x+w,y,x+w,y+r,r);
+  ctx.lineTo(x+w,y+h-r);ctx.arcTo(x+w,y+h,x+w-r,y+h,r);
+  ctx.lineTo(x+r,y+h);ctx.arcTo(x,y+h,x,y+h-r,r);
+  ctx.lineTo(x,y+r);ctx.arcTo(x,y,x+r,y,r);ctx.closePath();
+}
+const mainC=[];
+for(let i=0;i<6;i++){const c=document.getElementById('canvas-'+i);if(c){c.width=400;c.height=240;mainC.push({c,cfg:SL[i],type:i})}}
+function animMain(ts){mainC.forEach(({c,cfg,type})=>drawScene(c,cfg,ts,type));requestAnimationFrame(animMain)}
+requestAnimationFrame(animMain);
+const thumbRail=document.getElementById('thumbRail');
+const thumbC=[];
+const tLabels=['IHI Dalgakiran','TURBOWIN','Techno Designs','Aerodry','Ilmed Impianti','ÜNTES'];
+SL.forEach((cfg,i)=>{
+  const div=document.createElement('div');div.className='thumb'+(i===0?' active':'');div.onclick=()=>goTo(i);
+  const c=document.createElement('canvas');c.width=260;c.height=174;
+  const lbl=document.createElement('div');lbl.className='thumb-lbl';lbl.textContent=tLabels[i];
+  div.appendChild(c);div.appendChild(lbl);thumbRail.appendChild(div);thumbC.push({c,cfg,type:i});
+});
+function animTh(ts){thumbC.forEach(({c,cfg,type})=>drawScene(c,cfg,ts,type));requestAnimationFrame(animTh)}
+requestAnimationFrame(animTh);
+const pEl=document.getElementById('slideProgress');
+for(let i=0;i<6;i++){const d=document.createElement('div');d.className='prog-dot'+(i===0?' active':'');d.onclick=()=>goTo(i);pEl.appendChild(d)}
+let cur=0,pStart=null,pRaf=null;const DUR=7000;
+function updateUI(){
+  document.querySelectorAll('.slide').forEach((s,i)=>s.classList.toggle('active',i===cur));
+  document.querySelectorAll('.prog-dot').forEach((d,i)=>d.classList.toggle('active',i===cur));
+  document.querySelectorAll('.thumb').forEach((t,i)=>t.classList.toggle('active',i===cur));
+  document.getElementById('slideCounter').innerHTML=`<span>${String(cur+1).padStart(2,'0')}</span> / 06`;
+}
+function goTo(n){cur=(n+6)%6;updateUI();resetP()}
+function animP(ts){
+  if(!pStart)pStart=ts;
+  const pct=Math.min((ts-pStart)/DUR*100,100);
+  document.getElementById('progressLine').style.width=pct+'%';
+  if(pct<100){pRaf=requestAnimationFrame(animP)}else{goTo(cur+1)}
+}
+function resetP(){if(pRaf)cancelAnimationFrame(pRaf);pStart=null;document.getElementById('progressLine').style.width='0%';pRaf=requestAnimationFrame(animP)}
+document.getElementById('prevBtn').onclick=()=>goTo(cur-1);
+document.getElementById('nextBtn').onclick=()=>goTo(cur+1);
+document.querySelector('.hero').addEventListener('touchstart',e=>{window._tx=e.touches[0].clientX},{passive:true});
+document.querySelector('.hero').addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-window._tx;if(Math.abs(dx)>50)goTo(dx>0?cur-1:cur+1)},{passive:true});
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')goTo(cur+1);if(e.key==='ArrowLeft')goTo(cur-1)});
+const partners = [
+  '<img src="https://lh3.googleusercontent.com/proxy/Nll78PbPVke_414ghruj5p_nus_Ff4r0Mixqzia7G1qm36Hr4yTelkPrkGjm10lMExlwUG1LNkhWa9lAoydtjhElNfgcjBq6CNFoRUWY9yBxl_QjgcV1T9xg3wXOyf1XB6nJMg" style="height:25px;">',
+  '<img src="https://turbowin.com/theme/turb/images/layout/hd_logo.png" style="height:25px;">',
+  '<img src="https://www.technodesignsindia.com/images/logo.png" style="height:25px;">',
+  '<img src="https://aerodry.com/images/logo.webp" style="height:25px;">',
+  '<img src="https://www.ilmedimpianti.com/wp-content/uploads/2026/02/cropped-ilmed-impianti-logo.png" style="height:25px;">',
+  '<img src="https://untes.com.tr/wp-content/uploads/2022/06/UntesLogo-1.png" style="height:25px;">'
+];
+const ticker=document.getElementById('ticker');
+[...partners,...partners,...partners,...partners].forEach(n=>{
+  const chip=document.createElement('div');chip.className='partner-chip';
+  chip.innerHTML=`<div class="partner-dot"></div><span class="partner-name">${n}</span>`;
+  ticker.appendChild(chip);
+});
+const companies = [
+  { name: 'IHI DALGAKIRAN', sectorKey: 'sector0', productsKeys: ['p0_0', 'p0_1', 'p0_2', 'p0_3'], ci: 0 },
+  { name: 'TURBOWIN', sectorKey: 'sector1', productsKeys: ['p1_0', 'p1_1', 'p1_2', 'p1_3'], ci: 1 },
+  { name: 'TECHNO DESIGNS', sectorKey: 'sector2', productsKeys: ['p2_0', 'p2_1', 'p2_2', 'p2_3', 'p2_4', 'p2_5'], ci: 2 },
+  { name: 'AERODRY', sectorKey: 'sector3', productsKeys: ['p3_0', 'p3_1', 'p3_2', 'p3_3', 'p3_4', 'p3_5'], ci: 3 },
+  { name: 'ILMED IMPIANTI', sectorKey: 'sector4', productsKeys: ['p4_0', 'p4_1', 'p4_2', 'p4_3', 'p4_4'], ci: 4 },
+  { name: 'ÜNTES', sectorKey: 'sector5', productsKeys: ['p5_0', 'p5_1', 'p5_2', 'p5_3', 'p5_4'], ci: 5 }
+];
+const compGrid = document.getElementById('companiesGrid');
+const videoIds = ["1182527069", "1182530620", "1181846874", "1182529019", "1179575740", "1182532691"];
+if (compGrid) {
+  compGrid.innerHTML = ''; 
+  companies.forEach(co => {
+    const card = document.createElement('div');
+    card.className = 'company-card';
+    const wrap = document.createElement('div');
+    wrap.style.cssText = `position: relative; width: 100%; padding-top: 56.25%; border-radius: 6px; overflow: hidden; margin-bottom: 18px; border: 1px solid rgba(74,159,212,0.08);`;
+    const iframe = document.createElement('iframe');
+    iframe.src = `https://player.vimeo.com/video/${videoIds[co.ci]}?autoplay=1&muted=1&loop=1&background=1&quality=auto`;
+    iframe.allow = "autoplay; fullscreen; picture-in-picture";
+    iframe.style.cssText = `position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;`;
+    const protectionOverlay = document.createElement('div');
+    protectionOverlay.style.cssText = `
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+        z-index: 10; 
+        background: rgba(0,0,0,0);
+        cursor: default;
+    `;
+    wrap.appendChild(iframe);
+    wrap.appendChild(protectionOverlay);
+    const sec = document.createElement('div');
+    sec.className = 'company-sector';
+    sec.setAttribute('data-i18n', co.sectorKey);
+    const nm = document.createElement('div');
+    nm.className = 'company-name';
+    nm.textContent = co.name;
+    const ul = document.createElement('ul');
+    ul.className = 'company-products';
+    co.productsKeys.forEach(pKey => {
+      const li = document.createElement('li');
+      li.setAttribute('data-i18n', pKey);
+      ul.appendChild(li);
+    });
+    card.appendChild(wrap);
+    card.appendChild(sec);
+    card.appendChild(nm);
+    card.appendChild(ul);
+    compGrid.appendChild(card);
+  });
+}
+const currentLang = document.documentElement.lang || 'en';
+if (typeof applyLang === "function") {
+    applyLang(currentLang);
+}
+const teamData = [
+  { name: 'Mikail YILDIZ', key: 'tm1', color: '#2E5FA3', email: 'm.yildiz@ilteksan.com', linkedin: 'https://www.linkedin.com/in/mikail-yildiz-5064771b/', image: 'https://h.top4top.io/p_37481bket1.jpeg' },
+  { name: 'Orhan KILIÇ', key: 'tm2', color: '#1A7A9A', email: 'o.kilic@ilteksan.com', linkedin: 'https://www.linkedin.com/in/orhan-kili%C3%A7-834b74208/', image: 'https://l.top4top.io/p_3742xao5n1.jpeg' },
+  { name: 'Olcay KAVALA', key: 'tm3', color: '#1A5A3A', email: 'o.kavala@ilteksan.com', linkedin: 'https://www.linkedin.com/in/olcay-kavala-67666799/', image: 'https://b.top4top.io/p_3748nx5f61.jpeg' },
+  { name: 'Mehmet DEMİR', key: 'tm4', color: '#8A5A2A', email: 'm.demir@ilteksan.com', linkedin: 'https://www.linkedin.com/in/mehmet-demir-8b952270/', image: 'https://j.top4top.io/p_3748wd0av1.jpeg' },
+  { name: 'Recep BALGIÇ', key: 'tm5', color: '#7A3A8A', email: 'r.balgic@ilteksan.com', linkedin: 'https://www.linkedin.com/in/recep-balg%C4%B1%C3%A7-22b1a2337/', image: 'https://h.top4top.io/p_3742anv8l1.jpeg' },
+  { name: 'Hatim Elabdullah', key: 'tm6', color: '#8A5A2A', email: 'sales@ilteksan.com', linkedin: 'https://www.linkedin.com/in/hatim-elabdullah-5100831b1/', image: 'https://l.top4top.io/p_37424pufd1.jpeg' },
+  { name: 'Oğuz PALA', key: 'tm7', color: '#8A5A2A', email: 'o.pala@ilteksan.com', linkedin: 'https://www.linkedin.com/company/i%CC%87lteksan/', image: 'https://j.top4top.io/p_37482xbr61.jpeg' },
+  { name: 'Mehmet YILDIRIM', key: 'tm8', color: '#8A5A2A', email: 'm.yildirim@ilteksan.com', linkedin: 'https://www.linkedin.com/company/i%CC%87lteksan/', image: 'https://f.top4top.io/p_3752bkzmu1.jpeg' }
+];
+const teamGrid = document.getElementById('teamGrid');
+if (teamGrid) {
+  teamGrid.innerHTML = ''; 
+  teamData.forEach(m => {
+    const card = document.createElement('div');
+    card.className = 'team-card';
+    card.innerHTML = `
+      <div class="team-avatar" style="border-color:${m.color}40">
+        <img src="${m.image}" alt="${m.name}" class="team-avatar-img" style="width:100%;height:100%;border-radius:100%;object-fit:cover;">
+      </div>
+      <div class="team-name">${m.name}</div>
+      <div class="team-role" data-i18n="${m.key}.role"></div>
+      <div class="team-desc" data-i18n="${m.key}.desc"></div>
+      <div class="team-social">
+        <a href="${m.linkedin}" title="LinkedIn" target="_blank">
+          <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:${m.email}" title="Email">
+          <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>`;
+    teamGrid.appendChild(card);
+  });
+}
+const clientRefs=[
+  {name:'Diler Holding', url:'https://www.dilerhld.com/', logo:'https://www.dilerhld.com/dilerholding/assets/img/icons/diler_yeni_logo.svg'},
+  {name:'Erdem Soft Textile', url:'https://www.erdemsofttextile.com/', logo:'https://www.erdemsofttextile.com/images/logo.png'},
+  {name:'Melike Tekstil', url:'https://www.meliketekstil.com/tr/ana-sayfa', logo:'https://www.meliketekstil.com/images/logo2.png'},
+  {name:'Tat Tekstil', url:'https://tattekstil.com/', logo:'https://tattekstil.com/doc/logo.png'},
+  {name:'Merinos', url:'https://www.merinos.com.tr/', logo:'https://www.merinos.com.tr/content/images/thumbs/829/829efa39-9cea-4d52-bfee-c76d176f474f_250.png'},
+  {name:'Hasırcı Tekstil', url:'https://hasircitextile.com/', logo:'https://docs.tuyap.online/KBF/Resim3320/166555.png'},
+  {name:'Bade Halı', url:'https://www.badehali.com/', logo:'https://www.badehali.com/images/logo.png'},
+  {name:'KÖKSAN', url:'https://koksan.com/', logo:'https://koksan.com/app/Images/koksan-logo-yeni_1695027496.png'},
+  {name:'Sırikçioğlu', url:'https://www.sirikcioglu.com.tr/', logo:'https://www.sirikcioglu.com.tr/data/image/setting/logo.png'},
+  {name:'Flament BCF', url:'https://www.flamentbcf.com.tr/tr/', logo:'https://www.flamentbcf.com.tr/img/logo.png'},
+  {name:'Mem Textile', url:'https://www.memtextile.com/', logo:'https://memtextile.com/dimg/31605logo-dark.svg'},
+  {name:'Arsan Textile', url:'https://www.arsantextile.com/', logo:'https://c.top4top.io/p_37435bil91.png'},
+  {name:'Anadolu Cam', url:'https://www.anadolucam.net/', logo:'https://www.anadolucam.net/Content/assets/images/logo/logo.svg'},
+  {name:'Trakya Cam', url:'https://www.trakya-cam.com.tr/', logo:'https://www.trakya-cam.com.tr/wp-content/uploads/2025/01/trakyacamlogo-yazisiz.png'},
+  {name:'Karsu Textile', url:'https://www.karsu.com.tr/en', logo:'https://www.karsu.com.tr/lib/assets/images/logo.jpg?v=638886860353963933'},
+  {name:'Kipaş Holding', url:'https://kipas.com.tr/', logo:'https://kipas.com.tr/wp-content/uploads/2025/05/Kipas-logo-1.svg'},
+  {name:'Zeki Mensucat', url:'https://www.zekimensucat.com.tr/', logo:'https://www.zekimensucat.com.tr/assets/img/logo/zeki_logo.png'},
+  {name:'Dönem Mensucat', url:'https://www.donemensucat.com.tr/', logo:'https://www.narbim.com.tr/image/catalog/referanslar/Done%20Mensucat.jpg'},
+  {name:'Nestlé Türkiye', url:'https://www.nestle.com.tr/', logo:'https://mma.prnewswire.com/media/1317554/nestle_waters_logo_hr__1___1_Logo.jpg?p=facebook'},
+  {name:'BORÇELİK', url:'https://www.borcelik.com/', logo:'https://borwebstorage.blob.core.windows.net/borcelikwebsite-media/Borcelik%20logo.jpg'},
+  {name:'Boyteks', url:'https://www.boyteks.com/', logo:'https://pbs.twimg.com/profile_images/1646824881957269504/avUV6rAa_400x400.jpg'},
+  {name:'CMS BALSUYU', url:'https://www.balsuyu.com/en', logo:'https://www.balsuyu.com/images/logo.svg'},
+  {name:'Plaza Hotel', url:'https://www.plazahotel.com.tr/', logo:'https://www.plazahotel.com.tr/wp-content/uploads/2022/03/maviplaza.png'},  
+  {name:'Poyraz Elektronik', url:'http://poyrazelektrik.com/', logo:'http://poyrazelektrik.com/images/logo/7593324063796-568-497234667030-450-logo_poyraz_size.png'},
+  {name:'Karafiber', url:'https://karafibertekstil.com/', logo:'https://karafibertekstil.com/wp-content/uploads/2022/08/KaraFiber_Logo.svg'},
+  {name:'Gaziantep University', url:'https://www.gaziantep.edu.tr/', logo:'https://pbs.twimg.com/profile_images/1693515136370167808/SEtHVvhz_400x400.jpg'},
+  {name:'Enka', url:'https://www.enka.com/tr/', logo:'https://pbs.twimg.com/profile_images/1644335178477719552/3Ywe4SWd_400x400.jpg'},
+  {name:'Özkaplan Carpet', url:'https://www.ozkaplancarpet.com/', logo:'https://www.ozkaplancarpet.com/view/default/assets//images/genel/logo-transparan.png'},
+  {name:'Bossan Carpet', url:'https://www.bossancarpet.com/', logo:'https://www.bossancarpet.com/images/logo.png'},
+  {name:'Tosyalı Holding', url:'https://www.tosyaliholding.com.tr/', logo:'https://www.tosyaliholding.com.tr/assets/svg/logo.svg'},
+  {name:'Eren Holding', url:'https://www.erenholding.com.tr/', logo:'https://www.erenholding.com.tr/uploads/site/logo-black.png'},
+  {name:'Küçükçalık', url:'https://kucukcalik.com.tr/', logo:'https://kucukcalik.com.tr/wp-content/uploads/2021/10/Kucukcalik-Logo.svg'},
+  {name:'İŞKUR', url:'https://www.iskur.com/', logo:'https://www.iskur.com/view/default/assets/img/logolar/iskur_logo.png'},
+  {name:'Atakaş', url:'https://www.atakas.com.tr/tr', logo:'https://j.top4top.io/p_3743eupmf1.png'},
+  {name:'Ekinciler', url:'https://www.ekinciler.com/', logo:'https://static.wixstatic.com/media/625e17_798843a6854d4243b0de392c8b555713~mv2.png/v1/crop/x_19,y_0,w_877,h_392/fill/w_531,h_238,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Ekran%20Resmi%202025-06-26%2013_24_edited.png'},
+  {name:'RB Karesi', url:'https://www.rbkaresi.com.tr/', logo:'https://tahsilat.rbkaresi.com.tr/SiteFiles/images/logo/logo-71645.png'},
+  {name:'YAZICI DEMIR ÇELIK', url:'https://yazicidc.com/index.aspx', logo:'https://yazicidc.com/images/logo.png'},
+  {name:'Tosyalı Toyo', url:'https://www.tosyalitoyo.com.tr/', logo:'https://www.tosyaliholding.com.tr/assets/svg/logo.svg'},
+  {name:'Kristal Mensucat', url:'https://kristalmensucat.com.tr/', logo:'https://kristalmensucat.com.tr/view/default/assets/images/kristal_logo.svg'},
+];
+const tGrid=document.getElementById('testimonialsGrid');
+const colors=['#2E5FA3','#1A7A9A','#1A5A3A','#7A3A8A','#8A5A2A','#2A8B7A'];
+let currentStartIndex=0;
+function renderTestimonials(startIndex){
+  tGrid.innerHTML='';
+  for(let i=0;i<9;i++){
+    const idx=(startIndex + i) % clientRefs.length;
+    const ref=clientRefs[idx];
+    const initials=ref.name.split(' ').map(w=>w[0]).join('').substring(0,2).toUpperCase();
+    const color=colors[idx % colors.length];
+    const card=document.createElement('div');
+    card.className='testimonial-card';
+    card.innerHTML=`
+      <div style="display:flex; flex-direction:column; align-items:center; gap:12px; justify-content:flex-start;">
+<div class="t-avatar" style="  width:420px;
+  height:100px;
+  border-color:${color};
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  background:white;
+  border-radius:12px;
+  padding:10px;
+">  ${
+    ref.logo 
+      ? `<img src="${ref.logo}" alt="${ref.name}" style="max-width:120%;max-height:60px;object-fit:contain;">`
+    : initials
+  }
+</div>
+        <div class="t-name" style="text-align:center;">${ref.name}</div>
+      </div>`;
+    tGrid.appendChild(card);
+  }
+}
+function shiftTestimonials(step){
+  currentStartIndex=(currentStartIndex + step + clientRefs.length) % clientRefs.length;
+  renderTestimonials(currentStartIndex);
+}
+renderTestimonials(currentStartIndex);
+const testimonialsGrid = document.getElementById('testimonialsGrid');
+const scrollLeftBtn = document.getElementById('scrollLeft');
+const scrollRightBtn = document.getElementById('scrollRight');
+if(scrollLeftBtn && scrollRightBtn && testimonialsGrid) {
+  let autoScrollDirection = 1;
+  let isAutoScrollPaused = false;
+  let autoScrollTimer = null;
+  function startAutoScroll() {
+    if (autoScrollTimer) return;
+    autoScrollTimer = setInterval(() => {
+      if (isAutoScrollPaused) return;
+      const nextIndex = (currentStartIndex + autoScrollDirection * 3 + clientRefs.length) % clientRefs.length;
+      if (nextIndex === currentStartIndex) {
+        autoScrollDirection *= -1;
+      }
+      shiftTestimonials(autoScrollDirection * 3);
+    }, 1800);
+  }
+  function stopAutoScroll() {
+    if (autoScrollTimer) {
+      clearInterval(autoScrollTimer);
+      autoScrollTimer = null;
+    }
+  }
+  scrollLeftBtn.addEventListener('click', () => {
+    stopAutoScroll();
+    autoScrollDirection = -1;
+    shiftTestimonials(-3);
+    startAutoScroll();
+  });
+  scrollRightBtn.addEventListener('click', () => {
+    stopAutoScroll();
+    autoScrollDirection = 1;
+    shiftTestimonials(3);
+    startAutoScroll();
+  });
+  [testimonialsGrid, scrollLeftBtn, scrollRightBtn].forEach(el => {
+    el.addEventListener('mouseenter', () => { isAutoScrollPaused = true; });
+    el.addEventListener('mouseleave', () => { isAutoScrollPaused = false; });
+  });
+  startAutoScroll();
+}
+const dl=(navigator.language||'en').slice(0,2).toLowerCase();
+applyLang(['en','ar','tr','fr','es','it','pt','ru'].includes(dl)?dl:'en');
+resetP();updateUI();
+function openModal() {
+    document.getElementById('careerModal').style.display = 'flex';
+}
+function closeModal() {
+    document.getElementById('careerModal').style.display = 'none';
+}
+function openRequestModal() {
+    document.getElementById('requestModal').style.display = 'flex';
+}
+
+function closeRequestModal() {
+    document.getElementById('requestModal').style.display = 'none';
+}
+window.onclick = function(event) {
+    var careerModal = document.getElementById('careerModal');
+    var requestModal = document.getElementById('requestModal');
+    
+    if (event.target == careerModal) {
+        careerModal.style.display = "none";
+    }
+    if (event.target == requestModal) {
+        requestModal.style.display = "none";
+    }
+}
+</script>
+<div id="careerModal" class="modal-overlay" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); backdrop-filter:blur(5px); z-index:99999; align-items:center; justify-content:center; padding:20px;">
+    <div class="modal-content" style="background:#1B2A4A; border:1px solid #2E5FA3; padding:30px; border-radius:15px; width:100%; max-width:500px; position:relative; color:white; font-family:'Barlow', sans-serif;">
+        <span onclick="closeModal()" style="position:absolute; top:15px; right:20px; font-size:30px; cursor:pointer; color:#B8C8DC;">&times;</span>
+        
+        <h2 data-i18n="modal.join_title" style="margin-bottom:20px; color:#5B9BD5; border-bottom:2px solid #2E5FA3; padding-bottom:10px;">Apply for a Position</h2>
+        
+        <form action="https://formspree.io/f/mjgpnykj" method="POST" enctype="multipart/form-data" style="display:flex; flex-direction:column; gap:15px;">
+            <div>
+                <label data-i18n="modal.full_name" style="display:block; margin-bottom:5px; font-size:14px;">Full Name</label>
+                <input type="text" name="name" required style="width:100%; padding:10px; border-radius:5px; border:1px solid #2E5FA3; background:#0F1E36; color:white;">
+            </div>
+            <div>
+                <label data-i18n="modal.email" style="display:block; margin-bottom:5px; font-size:14px;">Email Address</label>
+                <input type="email" name="email" required style="width:100%; padding:10px; border-radius:5px; border:1px solid #2E5FA3; background:#0F1E36; color:white;">
+            </div>
+            <div>
+                <label data-i18n="modal.phone" style="display:block; margin-bottom:5px; font-size:14px;">Phone Number</label>
+                <input type="tel" name="phone" required style="width:100%; padding:10px; border-radius:5px; border:1px solid #2E5FA3; background:#0F1E36; color:white;">
+            </div>
+            <div>
+                <label data-i18n="modal.upload_cv" style="display:block; margin-bottom:5px; font-size:14px;">Upload CV (PDF)</label>
+                <input type="file" name="cv" accept=".pdf" required style="width:100%; color:#B8C8DC;">
+            </div>
+            <button type="submit" data-i18n="modal.submit" style="background:#2E5FA3; color:white; border:none; padding:12px; border-radius:5px; cursor:pointer; font-weight:bold; margin-top:10px; transition:0.3s;">Submit Application</button>
+        </form>
+    </div>
+</div>
+
+<div id="requestModal" class="modal-overlay" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); backdrop-filter:blur(5px); z-index:99999; align-items:center; justify-content:center; padding:20px;">
+    <div class="modal-content" style="background:#1B2A4A; border:1px solid #2E5FA3; padding:30px; border-radius:15px; width:100%; max-width:550px; position:relative; color:white; font-family:'Barlow', sans-serif;">
+        <span onclick="closeRequestModal()" style="position:absolute; top:15px; right:20px; font-size:30px; cursor:pointer; color:#B8C8DC;">&times;</span>
+        <h2 data-i18n="modal.request_title" style="margin-bottom:20px; color:#5B9BD5; border-bottom:2px solid #2E5FA3; padding-bottom:10px;">Send a Request</h2>
+        <form action="https://formspree.io/f/mpqovplw" method="POST" style="display:flex; flex-direction:column; gap:15px;">
+    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:15px;">
+        <input type="text" name="name" data-i18n="[placeholder]modal.full_name" placeholder="Full Name" required style="width:100%; padding:10px; border-radius:5px; border:1px solid #2E5FA3; background:#0F1E36; color:white;">
+        <input type="text" name="company" data-i18n="[placeholder]modal.company_name" placeholder="Company Name" required style="width:100%; padding:10px; border-radius:5px; border:1px solid #2E5FA3; background:#0F1E36; color:white;">
+    </div>
+    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:15px;">
+        <input type="email" name="email" data-i18n="[placeholder]modal.email" placeholder="Email" required style="width:100%; padding:10px; border-radius:5px; border:1px solid #2E5FA3; background:#0F1E36; color:white;">
+        <input type="tel" name="phone" data-i18n="[placeholder]modal.phone" placeholder="Phone" required style="width:100%; padding:10px; border-radius:5px; border:1px solid #2E5FA3; background:#0F1E36; color:white;">
+    </div>
+    <select name="partner" required style="width:100%; padding:10px; border-radius:5px; border:1px solid #2E5FA3; background:#0F1E36; color:white;">
+        <option value="" disabled selected data-i18n="modal.select_partner">Select Partner / Product</option>
+        <option>IHI DALGAKIRAN</option>
+        <option>TURBOWIN</option>
+        <option>TECHNO DESIGNS</option>
+        <option>AERODRY</option>
+        <option>ILMED IMPIANTI</option>
+        <option>ÜNTES</option>
+    </select>
+    <textarea name="notes" data-i18n="[placeholder]modal.notes" placeholder="Additional Notes" rows="3" style="width:100%; padding:10px; border-radius:5px; border:1px solid #2E5FA3; background:#0F1E36; color:white; resize:none;"></textarea>
+    <button type="submit" data-i18n="modal.send_request" style="background:#2E5FA3; color:white; border:none; padding:12px; border-radius:5px; cursor:pointer; font-weight:bold;">Send Request</button>
+</form>
+    </div>
+</div>
+<script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    document.addEventListener('keydown', function(e) {
+        if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 88 || e.keyCode === 85) || e.keyCode === 123) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+    document.querySelectorAll('video').forEach(vid => {
+        vid.addEventListener('contextmenu', e => e.preventDefault());
+    });
+    
+    document.addEventListener('copy', (e) => {
+        e.preventDefault();
+    });
+</script>
+<script>
+    setInterval(function(){
+        if(window.devtools && window.devtools.isOpen){
+            document.body.innerHTML = "Security Protection: Access Denied";
+        }
+    }, 1000);
+</script>
+</body>
+
+</html>
